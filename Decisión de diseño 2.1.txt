@@ -1,0 +1,27 @@
+# Sistema de evetnos de gestión.
+
+* Estado: Aceptado.
+* Decisores: Daniel Liszewski, Alicia Merino.
+* Fecha: 16/10/2019
+
+## Se trata de un sistema de eventos que permita gestionar los elementos activos de emergenia mediante el envío de infomación.
+
+## Motivos de la decisión.
+
+* Motivación 1: Se cumple el requisito R2.
+* Motivación2 2: Este estilo nos permite enviar información a los elementos activos, y que estos reaccionen a dicha información.
+
+## Opciones consideradas.
+
+* Opción 1: Estilo de eventos.
+* Opción 2: Estilo Pipe and Filter.
+
+## Decisión resultante.
+
+Opción escogida: "Opción 1", porque es un sistema que nos permite realizar la gestión exigida enviando estímulos o eventos al subsistema de elemetnos activos de emergencia.
+
+### Consecuencias positivas
+
+* Se cumplen los requisitos del sistema.
+* La información de envía rápida y efectivamente.
+* Podemos definir un comportamiento diferente para cada elemento activo de emergencaia.
