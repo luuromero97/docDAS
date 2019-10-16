@@ -1,0 +1,29 @@
+# Crear un Sistema de Sistemas de tipo dirigido.
+
+* Estado: Aceptado.
+* Decisores: Daniel Liszewski, Alicia Merino.
+* Fecha: 15/10/2019
+
+## Se trata de un sistema centralizado que debe enviar y recibir información de diferentes subsistemas.
+
+
+## Motivos de la decisión.
+
+* Motivación 1: Requisito R1: Un sistema de interfaz centralizado.
+* Motivación2 2: La existencia de diferentes subsistemas que se deben gestionar desde un centro de control común.
+
+
+## Opciones consideradas.
+
+* Opción 1: Sistema de Sistemas de tipo dirigido.
+* Opción 2: Sistema de Sistemas de tipo colaborativo.
+
+## Decisión resultante.
+
+Opción escogida: "Opción 1", porque recoge la necesidad de tener un sistema centralizado que envíe y reciba información de los diferentes subsistemas.
+
+### Consecuencias positivas
+
+* Se cumplen los requisitos del sistema.
+* Se podrán añadir nuevos subsistemas en el futuro.
+* Los subsistemas son independientes entre si, detectando facilmente los posibles fallos que puedan surgir.
