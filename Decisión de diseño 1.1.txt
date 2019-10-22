@@ -26,6 +26,9 @@ Opción escogida: "Opción 1", porque recoge la necesidad de tener un sistema cent
 
 * Se cumplen los requisitos del sistema.
 * Se podrán añadir nuevos subsistemas en el futuro.
-* Los subsistemas son independientes entre si, detectando facilmente los posibles fallos que puedan surgir.
+* Los subsistemas son independientes entre si, detectando fácilmente los posibles fallos que puedan surgir.
 
 ### Consecuencias negativas
+
+* No se puede aplicar a todo el sistema.
+* No se pueden preasignar unidades activas.
