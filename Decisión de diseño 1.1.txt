@@ -1,4 +1,4 @@
-# Estilo por eventos para manejar los diferentes subistemas y sus llamadas y respuestas.
+# Estilo por eventos de tipo complejo para manejar los diferentes subistemas y sus llamadas y respuestas.
 
 * Estado: Aceptado.
 * Decisores: Daniel Liszewski, Alicia Merino.
@@ -27,6 +27,7 @@ Opción escogida: "Opción 1", porque recoge la necesidad de tener un sistema ce
 * Se cumplen los requisitos del sistema.
 * Se podrán añadir nuevos subsistemas en el futuro.
 * Los subsistemas son independientes entre si, detectando fácilmente los posibles fallos que puedan surgir.
+* La variante compleja del estilo por eventos permite que los subsistemas interactúen entre sí.
 
 ### Consecuencias negativas
 
