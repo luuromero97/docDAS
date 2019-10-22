@@ -1,5 +1,5 @@
 # Sistema de Pipe and Filter.
-* Estado: 
+* Estado: Rechazada.
 * Decisores: Daniel Liszewski, Alicia Merino.
 * Fecha: 16/10/2019
 
@@ -23,9 +23,10 @@ Opción escogida: "Opción 1", porque recoge la necesidad de tener un sistema ce
 
 ### Consecuencias positivas
 
-* Se cumplen los requisitos del sistema.
 * La información se envía a medida que se va generando, lo que la hace muy rápida.
 * Los elementos son independientes y por tanto se pueden volver a utilizar.
 * El subsistema se descompone en módulos funcionales, lo que facilita su mantenimiento.
 
 ### Consecuencias negativas
+
+* Con esta arquitectura no conseguimos tener un sistema centralizado que controle el reto de componentes como nos pide el cliente.
