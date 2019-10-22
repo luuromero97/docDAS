@@ -1,32 +1,31 @@
-# Crear un Sistema de Sistemas de tipo colaborativo.
-
-* Estado: Rechazado.
+# Sistema de Pipe and Filter.
+* Estado: 
 * Decisores: Daniel Liszewski, Alicia Merino.
-* Fecha: 15/10/2019
+* Fecha: 16/10/2019
 
-## Algunos subsistemas actuar谩n de forma voluntaria para llevar a cabo la emergencia que se les ha asignado.
+## Se trata de un sistema de tuber韆s en el que los datos se encapsulan y se filtran.
 
+## Motivos de la decisi髇.
 
-## Motivos de la decisi贸n.
-
-* Motivaci贸n 1: Requisito R1: Un sistema de interfaz centralizado.
-* Motivaci贸n2 2: Cumplir un objetivo.
+* Motivaci髇 1: Requisito 1: Un sistema centralizado para controlar los subsistemas.
+* Motivaci髇 2: Requisito 2: Gestionar los diferentes servicios de emergencia y acceder a su informaci髇.
+* Motivaci髇 3: Requisito 3: Gestionar los sistemas de emergencia y monitorizarlos.
 
 
 ## Opciones consideradas.
 
-* Opci贸n 1: Sistema de Sistemas de tipo dirigido.
-* Opci贸n 2: Sistema de Sistemas de tipo colaborativo.
+* Opci髇 1: Estilo de eventos.
+* Opci髇 2: Estilo Pipe and Filter.
 
-## Decisi贸n resultante.
+## Decisi髇 resultante.
 
-Opci贸n escogida: "Opci贸n 1", porque recoge la necesidad de tener un sistema centralizado que env铆e y reciba informaci贸n de los diferentes subsistemas.
+Opci髇 escogida: "Opci髇 1", porque recoge la necesida de tener un sistema centralizado que env韊 y reciba informaci髇 de los diferentes subsistemas.
 
 ### Consecuencias positivas
 
-* Se cumplen parcialmente los requisitos del sistema.
-* Se podr谩n a帽adir nuevos subsistemas en el futuro.
-* Los subsistemas son independientes entre s铆, detectando f谩cilmente los posibles fallos que puedan surgir.
+* Se cumplen los requisitos del sistema.
+* La informaci髇 se env韆 a medida que se va generando, lo que la hace muy r醦ida.
+* Los elementos son independientes y por tanto se pueden volver a utilizar.
+* El subsistema se descompone en m骴ulos funcionales, lo que facilita su mantenimiento.
 
 ### Consecuencias negativas
-* Ning煤n sistema act煤a de forma voluntaria, todo act煤a bajo el sistema general de control.
