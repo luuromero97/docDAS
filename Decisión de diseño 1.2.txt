@@ -3,29 +3,29 @@
 * Decisores: Daniel Liszewski, Alicia Merino.
 * Fecha: 16/10/2019
 
-## Se trata de un sistema de tuber韆s en el que los datos se encapsulan y se filtran.
+## Se trata de un sistema de tuber铆as en el que los datos se encapsulan y se filtran.
 
-## Motivos de la decisi髇.
+## Motivos de la decisi贸n.
 
-* Motivaci髇 1: Requisito 1: Un sistema centralizado para controlar los subsistemas.
-* Motivaci髇 2: Requisito 2: Gestionar los diferentes servicios de emergencia y acceder a su informaci髇.
-* Motivaci髇 3: Requisito 3: Gestionar los sistemas de emergencia y monitorizarlos.
+* Motivaci贸n 1: Requisito 1: Un sistema centralizado para controlar los subsistemas.
+* Motivaci贸n 2: Requisito 2: Gestionar los diferentes servicios de emergencia y acceder a su informaci贸n.
+* Motivaci贸n 3: Requisito 3: Gestionar los sistemas de emergencia y monitorizarlos.
 
 
 ## Opciones consideradas.
 
-* Opci髇 1: Estilo de eventos.
-* Opci髇 2: Estilo Pipe and Filter.
+* Opci贸n 1: Estilo de eventos.
+* Opci贸n 2: Estilo Pipe and Filter.
 
-## Decisi髇 resultante.
+## Decisi贸n resultante.
 
-Opci髇 escogida: "Opci髇 1", porque recoge la necesida de tener un sistema centralizado que env韊 y reciba informaci髇 de los diferentes subsistemas.
+Opci贸n escogida: "Opci贸n 1", porque recoge la necesidad de tener un sistema centralizado que env铆e y reciba informaci贸n de los diferentes subsistemas.
 
 ### Consecuencias positivas
 
 * Se cumplen los requisitos del sistema.
-* La informaci髇 se env韆 a medida que se va generando, lo que la hace muy r醦ida.
+* La informaci贸n se env铆a a medida que se va generando, lo que la hace muy r谩pida.
 * Los elementos son independientes y por tanto se pueden volver a utilizar.
-* El subsistema se descompone en m骴ulos funcionales, lo que facilita su mantenimiento.
+* El subsistema se descompone en m贸dulos funcionales, lo que facilita su mantenimiento.
 
 ### Consecuencias negativas
