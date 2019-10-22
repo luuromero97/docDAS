@@ -5,28 +5,28 @@
 * Fecha: 15/10/2019
 
 ## Estamos ante un sistema que tiene una interfaz cental que controla diferentes subsistemas.
-A estos subsistemas deseamos enviarles informacÌon, y asÌ mismo, estos deben enviarnos informacÌon y/o respuestas.
+A estos subsistemas deseamos enviarles informac√≠on, y as√≠ mismo, estos deben enviarnos informac√≠on y/o respuestas.
 
-## Motivos de la decisiÛn.
+## Motivos de la decisi√≥n.
 
-* MotivaciÛn 1: Requisito R1: Un sistema de interfaz centralizado.
-* MotivaciÛn2 2: Requisito R2: Gestionar los diferentes elementos activos de emergencia.
-* MotivaciÛn 3: Requisito R3: Monitorizar y gestionar los sistemas de emergencia.
+* Motivaci√≥n 1: Requisito R1: Un sistema de interfaz centralizado.
+* Motivaci√≥n 2: Requisito R2: Gestionar los diferentes elementos activos de emergencia.
+* Motivaci√≥n 3: Requisito R3: Monitorizar y gestionar los sistemas de emergencia.
 
 ## Opciones consideradas.
 
-* OpciÛn 1: Estilo por eventos.
-* OpciÛn 2: Estilo Pipe and Filter.
+* Opci√≥n 1: Estilo por eventos.
+* Opci√≥n 2: Estilo Pipe and Filter.
 
-## DecisiÛn resultante.
+## Decisi√≥n resultante.
 
-OpciÛn escogida: "OpciÛn 1", porque recoge la necesidad de tener un sistema centralizado que envÌe y reciba informaciÛn de los diferentes subsistemas.
+Opci√≥n escogida: "Opci√≥n 1", porque recoge la necesidad de tener un sistema centralizado que env√≠e y reciba informaci√≥n de los diferentes subsistemas.
 
 ### Consecuencias positivas
 
 * Se cumplen los requisitos del sistema.
-* Se podr·n aÒadir nuevos subsistemas en el futuro.
-* Los subsistemas son independientes entre si, detectando f·cilmente los posibles fallos que puedan surgir.
+* Se podr√°n a√±adir nuevos subsistemas en el futuro.
+* Los subsistemas son independientes entre si, detectando f√°cilmente los posibles fallos que puedan surgir.
 
 ### Consecuencias negativas
 
