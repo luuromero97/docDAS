@@ -1,29 +1,31 @@
-# Crear un Sistema de Sistemas de tipo dirigido.
+# Estilo por eventos para manejar los diferentes subistemas y sus llamadas y respuestas.
 
 * Estado: Aceptado.
 * Decisores: Daniel Liszewski, Alicia Merino.
 * Fecha: 15/10/2019
 
-## Se trata de un sistema centralizado que debe enviar y recibir informaciÃ³n de diferentes subsistemas.
+## Estamos ante un sistema que tiene una interfaz cental que controla diferentes subsistemas.
+A estos subsistemas deseamos enviarles informacíon, y así mismo, estos deben enviarnos informacíon y/o respuestas.
 
+## Motivos de la decisión.
 
-## Motivos de la decisiÃ³n.
-
-* MotivaciÃ³n 1: Requisito R1: Un sistema de interfaz centralizado.
-* MotivaciÃ³n2 2: La existencia de diferentes subsistemas que se deben gestionar desde un centro de control comÃºn.
-
+* Motivación 1: Requisito R1: Un sistema de interfaz centralizado.
+* Motivación2 2: Requisito R2: Gestionar los diferentes elementos activos de emergencia.
+* Motivación 3: Requisito R3: Monitorizar y gestionar los sistemas de emergencia.
 
 ## Opciones consideradas.
 
-* OpciÃ³n 1: Sistema de Sistemas de tipo dirigido.
-* OpciÃ³n 2: Sistema de Sistemas de tipo colaborativo.
+* Opción 1: Estilo por eventos.
+* Opción 2: Estilo Pipe and Filter.
 
-## DecisiÃ³n resultante.
+## Decisión resultante.
 
-OpciÃ³n escogida: "OpciÃ³n 1", porque recoge la necesidad de tener un sistema centralizado que envÃ­e y reciba informaciÃ³n de los diferentes subsistemas.
+Opción escogida: "Opción 1", porque recoge la necesidad de tener un sistema centralizado que envíe y reciba información de los diferentes subsistemas.
 
 ### Consecuencias positivas
 
 * Se cumplen los requisitos del sistema.
-* Se podrÃ¡n aÃ±adir nuevos subsistemas en el futuro.
+* Se podrán añadir nuevos subsistemas en el futuro.
 * Los subsistemas son independientes entre si, detectando facilmente los posibles fallos que puedan surgir.
+
+### Consecuencias negativas
