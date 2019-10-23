@@ -13,6 +13,7 @@ A medida que se generan los datos estos se envían de forma inmediata.
 ## Opciones consideradas.
 
 * Opción 1: Estilo Pipe and Filter.
+* Opción 2: Estilo Monolítico.
 
 ## Decisión resultante.
 
@@ -26,4 +27,6 @@ Opción escogida: "Opción1" Las llamadas emergentes estarán mejor organizadas 
 distribución.
 
 ### Consecuencias negativas
+
+* Un estilo Pipe and Filter es un estilo muy modular por lo que requeriríamos de un mayor tiempo de desarrollo que lo que se necesitaría invertir para un estilo Monolítico. 
 
