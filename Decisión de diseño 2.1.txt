@@ -3,28 +3,27 @@
 * Decisores: Daniel Liszewski, Alicia Merino.
 * Fecha: 15/10/2019
 
-## Es un sistema no centralizado en el que mediante flujos se envÌa la informaciÛn
-A medida que se generan los datos estos se envÌan de forma inmediata.
+## Es un sistema no centralizado en el que mediante flujos se env√≠a la informaci√≥n
+A medida que se generan los datos estos se env√≠an de forma inmediata.
 
-## Motivos de la decisiÛn.
+## Motivos de la decisi√≥n.
 
-* MotivaciÛn 1: Requisito R5: Gestionar las llamadas que recibe el sistema.
-* MotivaciÛn 2: Requisito R9: Las unidades recibir·n informaciÛn en tiempo real.
+* Motivaci√≥n 1: Requisito R5: Gestionar las llamadas que recibe el sistema.
 
 ## Opciones consideradas.
 
-* OpciÛn 1: Estilo Pipe and Filter.
+* Opci√≥n 1: Estilo Pipe and Filter.
 
-## DecisiÛn resultante.
+## Decisi√≥n resultante.
 
-OpciÛn escogida: "OpciÛn1" Las llamadas emergentes estar·n mejor organizadas si disponemos de dos mÛdulos anteriores
-(mÛdulo de llamadas y mÛdulo con una cola).
+Opci√≥n escogida: "Opci√≥n1" Las llamadas emergentes estar√°n mejor organizadas si disponemos de dos m√≥dulos anteriores
+(m√≥dulo de llamadas y m√≥dulo con una cola).
 
 ### Consecuencias positivas
 
-* Se dispondr· de la informaciÛn de forma instant·nea, se genera salida antes de que acabe la entrada.
-* Las llamadas se llevar·n a una cola donde se almacenar·n y desembocar·n en el sistema central con su posterior 
-distribuciÛn.
+* Se dispondr√° de la informaci√≥n de forma instant√°nea, se genera salida antes de que acabe la entrada.
+* Las llamadas se llevar√°n a una cola donde se almacenar√°n y desembocar√°n en el sistema central con su posterior 
+distribuci√≥n.
 
 ### Consecuencias negativas
 
