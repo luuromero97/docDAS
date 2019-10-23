@@ -1,0 +1,30 @@
+# Estilo Pipe and Filter
+* Estado: 
+* Decisores: Daniel Liszewski, Alicia Merino.
+* Fecha: 15/10/2019
+
+## Es un sistema no centralizado en el que mediante flujos se envía la información
+A medida que se generan los datos estos se envían de forma inmediata.
+
+## Motivos de la decisión.
+
+* Motivación 1: Requisito R5: Gestionar las llamadas que recibe el sistema.
+* Motivación 2: Requisito R9: Las unidades recibirán información en tiempo real.
+
+## Opciones consideradas.
+
+* Opción 1: Estilo Pipe and Filter.
+
+## Decisión resultante.
+
+Opción escogida: "Opción1" Las llamadas emergentes estarán mejor organizadas si disponemos de dos módulos anteriores
+(módulo de llamadas y módulo con una cola).
+
+### Consecuencias positivas
+
+* Se dispondrá de la información de forma instantánea, se genera salida antes de que acabe la entrada.
+* Las llamadas se llevarán a una cola donde se almacenarán y desembocarán en el sistema central con su posterior 
+distribución.
+
+### Consecuencias negativas
+
