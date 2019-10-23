@@ -1,0 +1,37 @@
+# Decisión de diseño 1.1: Estilo por eventos.
+
+## Actores que envían eventos:
+* Detector de incendios.
+* Sistema de interfaz central.
+* Elemetnos activos de emergencia.
+* Cámaras de video-vigilancia.
+
+## Actores que reciben eventos:
+* Sistema de interfaz central.
+* Elementos activos de emergencia.
+* Emergencias en curso.
+
+### Flujo de eventos:
+* Flujo 1: Sensor de incendios > interfaz común > Elemento activo de emergencia.
+	- Cuando el detector de emergencias inesperadas detecta que su detector de incendios se ha activado, envía una señal vía radio al sistema de interfaz central.
+ 	- En el momento en el que la interfaz recibe el evento del subsistema de emergencias inesperadas envía un evento de activación a los elementos
+	activos de emergencia que considere necesarios. Cúantos deberá activar vendra determinado por la gravedad del incendio que ha recibido como
+	infomación por parte del subsistema de emergencias inespaeradas.
+	- Al mismo tiempo en el que se activan los elementos activos de emergencia se generará una emergencia. En dicha emergencia almacenaremos distintos datos, tales como
+	el número de la emergencia y los elementos activos asociados a dicha emergencia.
+
+* Flujo 2: Elementos activos de emergencia > Sistema de interfaz general > Emergencia en curso.
+	- Los elementos activos de emergencia enviarán información sobre la situación de la emergencia.
+	- El sistema de interfaz central actualizará la información en la emergencia que corresponda.
+
+* Flujo 3: Cámaras de video-vigilancia > Sistema de interfaz central.
+	- Las cámaras de video vigilancia enviarán las imagenes que graban y la interfaz común las analizará, generando si es necesario un evento de acctivacion de emergencia.
+
+* Flujo 4: Flujo de crear elementos activos de emergencia.
+	- La interfáz central activara cada elemento activo de emergencia por separado, variando el número y los tipos de elementos dependiendo de la gravedad de la emergencia.
+	- La activación de elementos activos se realizará mediante el patrón creacional "abstract factory". Dicho patón permite generar los diferetnes elemetnos activos de emergencia
+	(sanitarios, bomberos, policías, militares) abstrayéndose de los componentes de los mismos utilizando interfaces comúnes (motos, coches, camiones, helicóperos, aviones).
+
+* Flujo 5: Flujo de crear emergencias.
+	- La emergencia se generará siguiendo el patrón creacional "builder".
+	- Deberá verse regflajada la relación entre la emergencia y los elemetnos activos de emergencia relacionados con ella.
