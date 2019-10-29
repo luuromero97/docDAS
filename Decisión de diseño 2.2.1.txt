@@ -1,0 +1,25 @@
+# Sistema de inicio de sesión dde operadores.
+* Estado: Aceptada.
+* Decisores: Daniel Liszewski, Alicia Merino.
+* Fecha: 29/10/2019
+
+## Es necesrio un sitema que controle cúantos operadores telefónicos se encuentran activos en cada momento.
+
+## Motivos de la decisión.
+* Motivación 1: Requisito R10: El rango de llamadas será variable dependiendo del número de operadores disponibles.
+* Motivación 2: Este tipo de sistema es rápido.
+* Motivación 3: Permite llevar en tiempo real el cuenteo de operadores activos.
+
+## Opciones consideradas.
+* Opción 1: Sistema de inicio de sesión.
+* Opción 2: Sitema de fichages.
+
+## Decisión resultante.
+Opción escogida: "Opción 1" porque es un sistema rápido y efectivo que minimiza el número de falsos operadores acctivos.
+
+### Consecuencias positivas
+* Se podrá controlar cuanto trabaja cada operador de una manera más precisa.
+* Además, se podrán recopilar datos adicionales como cuántas llamadas atiende cada operador, cuánto tiempo ha estado en total en llamada, etc.
+
+
+### Consecuencias negativas
