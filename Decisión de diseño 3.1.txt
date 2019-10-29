@@ -1,0 +1,31 @@
+# Estilo REST 
+
+* Estado: 
+* Decisores: Daniel Liszewski, Alicia Merino.
+* Fecha: 29/10/2019
+
+## Contamos con una API REST que se basa en el estilo REST 
+La utilidad de esta interfaz es la de que todas las aplicaciones se comuniquen mejor entre ellas
+
+
+## Motivos de la decisión.
+
+* Motivación 1: Requisito R9: Los operarios recibirán información instantáneamente. 
+* Motivación 1: Requisito R4: La interfaz se adapta a otras plataformas de trabajo.
+
+## Opciones consideradas.
+
+* Opción 1: Estilo REST
+
+## Decisión resultante.
+
+Opción escogida: 
+
+### Consecuencias positivas
+
+* Se incluyen nuevas funcionalidades con mayor facilidad.
+* La independencia que ofrece este estilo permite adaptarlo a otras plataformas, permitiéndole mayor compatibilidad.
+* La separación cliente-servidor proporciona la indiferencia del cliente hacia cómo esté hecha la API y, del mismo
+modo, qué se haga con la aplicación, aunque habrá datos que no podrán modificarse.
+
+### Consecuencias negativas
