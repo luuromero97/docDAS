@@ -1,52 +1,23 @@
 # Estilo Monolítico
-
-* Estado: 
-
+* Estado: Aceptada.
 * Decisores: Daniel Liszewski, Alicia Merino.
-
 * Fecha: 23/10/2019
-
-
 
 ## Es una aplicación cerrada la cual no podría ser expandida.
 
-
-
 ## Motivos de la decisión.
-
-
-
 * Motivación 1: Requisito R5: Gestionar las llamadas que recibe el sistema.
-
 * Motivación 2: El sistema de llamadas no requerirá expandirse por lo que no necesita ser modular.
 
-
-
 ## Opciones consideradas.
-
-
-
 * Opción 1: Estilo Pipe and Filter.
-
 * Opción 2: Estilo Monolítico.
 
-
-
 ## Decisión resultante.
-
-
-
 Opción escogida: "Opción 2" Su implementación será más sencilla por falta de modularidad y no requerirá expandirse.
 
-
 ### Consecuencias positivas
-
-
-
 * Su desarrollo sería más sencillo que con el estilo Pipe and Filter debido a su falta de modularidad.
 
-
 ### Consecuencias negativas
-
-
 * A pesar de que no creamos que la aplicación necesite en un futuro expandirse, con el sistema monolítico no lo podríamos conseguir de manera sencilla. 
