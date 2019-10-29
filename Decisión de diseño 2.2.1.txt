@@ -1,25 +1,25 @@
-# Sistema de inicio de sesiÛn dde operadores.
+# Sistema de inicio de sesi√≥n dde operadores.
 * Estado: Aceptada.
 * Decisores: Daniel Liszewski, Alicia Merino.
 * Fecha: 29/10/2019
 
-## Es necesrio un sitema que controle c˙antos operadores telefÛnicos se encuentran activos en cada momento.
+## Es necesrio un sitema que controle c√∫antos operadores telef√≥nicos se encuentran activos en cada momento.
 
-## Motivos de la decisiÛn.
-* MotivaciÛn 1: Requisito R10: El rango de llamadas ser· variable dependiendo del n˙mero de operadores disponibles.
-* MotivaciÛn 2: Este tipo de sistema es r·pido.
-* MotivaciÛn 3: Permite llevar en tiempo real el cuenteo de operadores activos.
+## Motivos de la decisi√≥n.
+* Motivaci√≥n 1: Requisito R10: El rango de llamadas ser√° variable dependiendo del n√∫mero de operadores disponibles.
+* Motivaci√≥n 2: Este tipo de sistema es r√°pido.
+* Motivaci√≥n 3: Permite llevar en tiempo real el cuenteo de operadores activos.
 
 ## Opciones consideradas.
-* OpciÛn 1: Sistema de inicio de sesiÛn.
-* OpciÛn 2: Sitema de fichages.
+* Opci√≥n 1: Sistema de inicio de sesi√≥n.
+* Opci√≥n 2: Sitema de fichajes.
 
-## DecisiÛn resultante.
-OpciÛn escogida: "OpciÛn 1" porque es un sistema r·pido y efectivo que minimiza el n˙mero de falsos operadores acctivos.
+## Decisi√≥n resultante.
+Opci√≥n escogida: "Opci√≥n 1" porque es un sistema r√°pido y efectivo que minimiza el n√∫mero de falsos operadores acctivos.
 
 ### Consecuencias positivas
-* Se podr· controlar cuanto trabaja cada operador de una manera m·s precisa.
-* Adem·s, se podr·n recopilar datos adicionales como cu·ntas llamadas atiende cada operador, cu·nto tiempo ha estado en total en llamada, etc.
+* Se podr√° controlar cuanto trabaja cada operador de una manera m√°s precisa.
+* Adem√°s, se podr√°n recopilar datos adicionales como cu√°ntas llamadas atiende cada operador, cu√°nto tiempo ha estado en total en llamada, etc.
 
 
 ### Consecuencias negativas
