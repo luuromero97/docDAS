@@ -1,4 +1,4 @@
-# Estilo MonolÌtico
+# Estilo Monol√≠tico
 
 * Estado: 
 
@@ -8,17 +8,17 @@
 
 
 
-## Es una aplicaciÛn cerrada la cual no podrÌa ser expandida.
+## Es una aplicaci√≥n cerrada la cual no podr√≠a ser expandida.
 
 
 
-## Motivos de la decisiÛn.
+## Motivos de la decisi√≥n.
 
 
 
-* MotivaciÛn 1: Requisito R5: Gestionar las llamadas que recibe el sistema.
+* Motivaci√≥n 1: Requisito R5: Gestionar las llamadas que recibe el sistema.
 
-* MotivaciÛn 2: (Si elegimos este estilo) El sistema de llamadas no requerir· expandirse por lo que no necesita ser modular.
+* Motivaci√≥n 2: El sistema de llamadas no requerir√° expandirse por lo que no necesita ser modular.
 
 
 
@@ -26,30 +26,27 @@
 
 
 
-* OpciÛn 1: Estilo Pipe and Filter.
+* Opci√≥n 1: Estilo Pipe and Filter.
 
-* OpciÛn 2: Estilo MonolÌtico.
-
-
-
-## DecisiÛn resultante.
+* Opci√≥n 2: Estilo Monol√≠tico.
 
 
 
-OpciÛn escogida: "OpciÛn1" Las llamadas emergentes estar·n mejor organizadas si disponemos de dos mÛdulos anteriores
+## Decisi√≥n resultante.
 
-(mÛdulo de llamadas y mÛdulo con una cola).
+
+
+Opci√≥n escogida: "Opci√≥n 2" Su implementaci√≥n ser√° m√°s sencilla por falta de modularidad y no requerir√° expandirse.
 
 
 ### Consecuencias positivas
 
 
 
-* Su desarrollo serÌa m·s sencillo que con el estilo Pipe and Filter debido a su falta de modularidad.
+* Su desarrollo ser√≠a m√°s sencillo que con el estilo Pipe and Filter debido a su falta de modularidad.
 
 
 ### Consecuencias negativas
 
 
-
-* A pesar de que no creamos que la aplicaciÛn necesite en un futuro expandirse, con el sistema monolÌtico no lo podrÌamos conseguir de manera sencilla. 
+* A pesar de que no creamos que la aplicaci√≥n necesite en un futuro expandirse, con el sistema monol√≠tico no lo podr√≠amos conseguir de manera sencilla. 
