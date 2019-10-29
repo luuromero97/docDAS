@@ -1,0 +1,24 @@
+# Sistema de fichaje.
+* Estado: Rechazada.
+* Decisores: Daniel Liszewski, Alicia Merino.
+* Fecha: 29/10/2019
+
+## Es necesrio un sitema que controle cúantos operadores telefónicos se encuentran activos en cada momento.
+
+## Motivos de la decisión.
+* Motivación 1: Requisito R10: El rango de llamadas será variable dependiendo del número de operadores disponibles.
+* Motivación 2: Permite conocer cuantos operdaores están trabajando.
+
+## Opciones consideradas.
+* Opción 1: Sistema de inicio de sesión.
+* Opción 2: Sitema de fichajes.
+
+## Decisión resultante.
+Opción escogida: "Opción 1" porque es un sistema rápido y efectivo que minimiza el número de falsos operadores acctivos.
+
+### Consecuencias positivas.
+* Se podrá comocer cuanto trabaja un operador.
+
+### Consecuencias negativas.
+* Un operador al terminar su turno podrá olvidar su ficha, podruciendo un número erroneo de operadores.
+* No se podrán obtener otro tipo de datos sin disponer de un sistema aparte para dicho fin.
