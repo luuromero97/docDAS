@@ -1,5 +1,5 @@
-# Estilo Pipe and Filter
-* Estado: 
+# Estilo Pipe and Filter.
+* Estado: Rechazado.
 * Decisores: Daniel Liszewski, Alicia Merino.
 * Fecha: 15/10/2019
 
@@ -17,8 +17,7 @@ A medida que se generan los datos estos se envían de forma inmediata.
 
 ## Decisión resultante.
 
-Opción escogida: "Opción1" Las llamadas emergentes estarán mejor organizadas si disponemos de dos módulos anteriores
-(módulo de llamadas y módulo con una cola).
+Opción escogida: "Opción2" porque su implementación será más sencilla por la falta de modularidad y porque no requerirá expandirse.
 
 ### Consecuencias positivas
 
