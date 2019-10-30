@@ -1,23 +1,24 @@
-# Sistema de inicio de sesi髇 seg鷑 el tipo de usuario.
+# Sistema de inicio de sesi贸n seg煤n el tipo de usuario.
 
 * Estado: 
 * Decisores: Daniel Liszewski, Alicia Merino.
 * Fecha: 30/10/2019
 
-## Se requiere de una aplicaci髇 web que notifique a los distintos usuarios del sistema seg鷑 categor韆.
+## Se requiere de una aplicaci贸n web que notifique a los distintos usuarios del sistema seg煤n categor铆a.
 
-## Motivos de la decisi髇.
-* Motivaci髇 1: Requisito R8: Dividir los usuarios del sistema.
+## Motivos de la decisi贸n.
+* Motivaci贸n 1: Requisito R8: Dividir los usuarios del sistema.
 
 ## Opciones consideradas.
-* Opci髇 1: Sistema de inicio de sesi髇 dividida.
+* Opci贸n 1: Sistema de inicio de sesi贸n dividida.
 
-## Decisi髇 resultante.
-Opci髇 escogida: "Opci髇 1" porque es un sistema r醦ido y clasificatorio, lo que lo hace m醩 din醡ico.
+## Decisi贸n resultante.
+Opci贸n escogida: "Opci贸n 1" porque es un sistema r谩pido y clasificatorio, lo que lo hace m谩s din谩mico.
 
 ### Consecuencias positivas
-* Permite enviar informaci髇 de forma directa a los distintos usuarios del sistema, de forma que estos est閚
+* Permite enviar informaci贸n de forma directa a los distintos usuarios del sistema, de forma que estos est茅n
 mejor informados de lo que tienen que tramitar.
 
 
 ### Consecuencias negativas
+* El hecho de a帽adir tipo de usuario har谩 que la BBDD tenga que recoger m谩s datos, lo que significar谩 un aumento en la necesidad de capacidad
