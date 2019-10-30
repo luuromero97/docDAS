@@ -7,22 +7,23 @@
 ## Contamos con una arquitectura en pizarra para coordinar los distintos agentes involucrado7
 
 
-## Motivos de la decisi髇.
+## Motivos de la decisi贸n.
 
-* Motivaci髇 1: Requisito R7: Asignar y monitorizar distintos tipos de recursos activos a emergencias concretas. 
+* Motivaci贸n 1: Requisito R7: Asignar y monitorizar distintos tipos de recursos activos a emergencias concretas. 
 
 ## Opciones consideradas.
 
-* Opci髇 1: Arquitectura en pizarra.
+* Opci贸n 1: Arquitectura en pizarra.
 
-## Decisi髇 resultante.
+## Decisi贸n resultante.
 
-Opci髇 escogida 1: Porque cada recurso puede mandar informaci髇, pudiendo el sistema de control interpretar dicha iinformaci髇 y asignar m醩 recursos.
+Opci贸n escogida 1: Porque cada recurso puede mandar informaci贸n, pudiendo el sistema de control interpretar dicha iinformaci贸n y asignar m谩s recursos.
 
 ### Consecuencias positivas
 
-* Los recursos activos de eemrgencia pueden enviar informaci髇 sobre el estado de su servicio.
-* El sistema central de control puede interpretar la informaci髇 que proporcionan los recursos activos.
-* Otros agentes pueden leer e interactuar con la informaci髇 sin tener que pedirla expresamente.
+* Los recursos activos de eemrgencia pueden enviar informaci贸n sobre el estado de su servicio.
+* El sistema central de control puede interpretar la informaci贸n que proporcionan los recursos activos.
+* Otros agentes pueden leer e interactuar con la informaci贸n sin tener que pedirla expresamente.
 
 ### Consecuencias negativas
+* Problemas de carga a la hora de ver el estado de la pizarra.
