@@ -1,0 +1,23 @@
+# Sistema de inicio de sesión según el tipo de usuario.
+
+* Estado: 
+* Decisores: Daniel Liszewski, Alicia Merino.
+* Fecha: 30/10/2019
+
+## Se requiere de una aplicación web que notifique a los distintos usuarios del sistema según categoría.
+
+## Motivos de la decisión.
+* Motivación 1: Requisito R8: Dividir los usuarios del sistema.
+
+## Opciones consideradas.
+* Opción 1: Sistema de inicio de sesión dividida.
+
+## Decisión resultante.
+Opción escogida: "Opción 1" porque es un sistema rápido y clasificatorio, lo que lo hace más dinámico.
+
+### Consecuencias positivas
+* Permite enviar información de forma directa a los distintos usuarios del sistema, de forma que estos estén
+mejor informados de lo que tienen que tramitar.
+
+
+### Consecuencias negativas
