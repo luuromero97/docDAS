@@ -1,37 +1,37 @@
-# DecisiÛn de diseÒo 1.1: Estilo por eventos.
+# Decisi√≥n de dise√±o 1.1: Estilo por eventos.
 
-## Actores que envÌan eventos:
+## Actores que env√≠an eventos:
 * Detector de incendios.
 * Sistema de interfaz central.
 * Elemetnos activos de emergencia.
-* C·maras de video-vigilancia.
+* C√°maras de video-vigilancia.
 
 ## Actores que reciben eventos:
 * Sistema de interfaz central.
 * Elementos activos de emergencia.
-* Emergencias en curso.
+
 
 ### Flujo de eventos:
-* Flujo 1: Sensor de incendios > interfaz com˙n > Elemento activo de emergencia.
-	- Cuando el detector de emergencias inesperadas detecta que su detector de incendios se ha activado, envÌa una seÒal vÌa radio al sistema de interfaz central.
- 	- En el momento en el que la interfaz recibe el evento del subsistema de emergencias inesperadas envÌa un evento de activaciÛn a los elementos
-	activos de emergencia que considere necesarios. C˙antos deber· activar vendra determinado por la gravedad del incendio que ha recibido como
-	infomaciÛn por parte del subsistema de emergencias inespaeradas.
-	- Al mismo tiempo en el que se activan los elementos activos de emergencia se generar· una emergencia. En dicha emergencia almacenaremos distintos datos, tales como
-	el n˙mero de la emergencia y los elementos activos asociados a dicha emergencia.
+* Flujo 1: Sensor de incendios > interfaz com√∫n > Elemento activo de emergencia.
+	- Cuando el detector de emergencias inesperadas detecta que su detector de incendios se ha activado, env√≠a una se√±al v√≠a radio al sistema de interfaz central.
+ 	- En el momento en el que la interfaz recibe el evento del subsistema de emergencias inesperadas env√≠a un evento de activaci√≥n a los elementos
+	activos de emergencia que considere necesarios. C√∫antos deber√° activar vendra determinado por la gravedad del incendio que ha recibido como
+	infomaci√≥n por parte del subsistema de emergencias inespaeradas.
+	- Al mismo tiempo en el que se activan los elementos activos de emergencia se generar√° una emergencia. En dicha emergencia almacenaremos distintos datos, tales como
+	el n√∫mero de la emergencia y los elementos activos asociados a dicha emergencia.
 
 * Flujo 2: Elementos activos de emergencia > Sistema de interfaz general > Emergencia en curso.
-	- Los elementos activos de emergencia enviar·n informaciÛn sobre la situaciÛn de la emergencia.
-	- El sistema de interfaz central actualizar· la informaciÛn en la emergencia que corresponda.
+	- Los elementos activos de emergencia enviar√°n informaci√≥n sobre la situaci√≥n de la emergencia.
+	- El sistema de interfaz central actualizar√° la informaci√≥n en la emergencia que corresponda.
 
-* Flujo 3: C·maras de video-vigilancia > Sistema de interfaz central.
-	- Las c·maras de video vigilancia enviar·n las imagenes que graban y la interfaz com˙n las analizar·, generando si es necesario un evento de acctivacion de emergencia.
+* Flujo 3: C√°maras de video-vigilancia > Sistema de interfaz central.
+	- Las c√°maras de video vigilancia enviar√°n las imagenes que graban y la interfaz com√∫n las analizar√°, generando si es necesario un evento de acctivacion de emergencia.
 
 * Flujo 4: Flujo de crear elementos activos de emergencia.
-	- La interf·z central activara cada elemento activo de emergencia por separado, variando el n˙mero y los tipos de elementos dependiendo de la gravedad de la emergencia.
-	- La activaciÛn de elementos activos se realizar· mediante el patrÛn creacional "abstract factory". Dicho patÛn permite generar los diferetnes elemetnos activos de emergencia
-	(sanitarios, bomberos, policÌas, militares) abstrayÈndose de los componentes de los mismos utilizando interfaces com˙nes (motos, coches, camiones, helicÛperos, aviones).
+	- La interf√°z central activara cada elemento activo de emergencia por separado, variando el n√∫mero y los tipos de elementos dependiendo de la gravedad de la emergencia.
+	- La activaci√≥n de elementos activos se realizar√° mediante el patr√≥n creacional "abstract factory". Dicho pat√≥n permite generar los diferetnes elemetnos activos de emergencia
+	(sanitarios, bomberos, polic√≠as, militares) abstray√©ndose de los componentes de los mismos utilizando interfaces com√∫nes (motos, coches, camiones, helic√≥peros, aviones).
 
 * Flujo 5: Flujo de crear emergencias.
-	- La emergencia se generar· siguiendo el patrÛn creacional "builder".
-	- Deber· verse regflajada la relaciÛn entre la emergencia y los elemetnos activos de emergencia relacionados con ella.
+	- La emergencia se generar√° siguiendo el patr√≥n creacional "builder".
+	- Deber√° verse regflajada la relaci√≥n entre la emergencia y los elemetnos activos de emergencia relacionados con ella.
