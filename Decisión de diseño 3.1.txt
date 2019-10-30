@@ -8,24 +8,25 @@
 La utilidad de esta interfaz es la de que todas las aplicaciones se comuniquen mejor entre ellas
 
 
-## Motivos de la decisiÛn.
+## Motivos de la decisi√≥n.
 
-* MotivaciÛn 1: Requisito R9: Los operarios recibir·n informaciÛn instant·neamente. 
-* MotivaciÛn 1: Requisito R4: La interfaz se adapta a otras plataformas de trabajo.
+* Motivaci√≥n 1: Requisito R9: Los operarios recibir√°n informaci√≥n instant√°neamente. 
+* Motivaci√≥n 2: Requisito R4: La interfaz se adapta a otras plataformas de trabajo.
+* Motivaci√≥n 3: requisito R7: Monitorizar y asignar distintos tipos de recursos activos.
 
 ## Opciones consideradas.
 
-* OpciÛn 1: Estilo REST
+* Opci√≥n 1: Estilo REST
 
-## DecisiÛn resultante.
+## Decisi√≥n resultante.
 
-OpciÛn escogida: 
+Opci√≥n escogida: Opci√≥n 1: porque nos permite comunicarnos con los agentes activos de emergencia en tiempo real adem√°s de adaptar la interfaz para cada uno.
 
 ### Consecuencias positivas
 
 * Se incluyen nuevas funcionalidades con mayor facilidad.
-* La independencia que ofrece este estilo permite adaptarlo a otras plataformas, permitiÈndole mayor compatibilidad.
-* La separaciÛn cliente-servidor proporciona la indiferencia del cliente hacia cÛmo estÈ hecha la API y, del mismo
-modo, quÈ se haga con la aplicaciÛn, aunque habr· datos que no podr·n modificarse.
+* La independencia que ofrece este estilo permite adaptarlo a otras plataformas, permiti√©ndole mayor compatibilidad.
+* La separaci√≥n cliente-servidor proporciona la indiferencia del cliente hacia c√≥mo est√© hecha la API y, del mismo
+modo, qu√© se haga con la aplicaci√≥n, aunque habr√° datos que no podr√°n modificarse.
 
 ### Consecuencias negativas
