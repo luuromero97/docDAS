@@ -8,7 +8,7 @@
 ## Motivos de la decisión.
 * Motivación 1: Requisito R10: El rango de llamadas será variable dependiendo del número de operadores disponibles.
 * Motivación 2: Este tipo de sistema es rápido.
-* Motivación 3: Permite llevar en tiempo real el cuenteo de operadores activos.
+* Motivación 3: Permite llevar en tiempo real el conteo de operadores activos.
 
 ## Opciones consideradas.
 * Opción 1: Sistema de inicio de sesión.
