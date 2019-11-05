@@ -31,4 +31,4 @@ modo, qué se haga con la aplicación, aunque habrá datos que no podrán modifi
 
 ### Consecuencias negativas
 
-* 
+* Es un protocolo menos robusto y seguro que el protocolo SOAP.
