@@ -1,6 +1,6 @@
 # Estilo REST 
 
-* Estado: 
+* Estado: Aceptado.
 * Decisores: Daniel Liszewski, Alicia Merino.
 * Fecha: 29/10/2019
 
