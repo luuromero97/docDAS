@@ -1,32 +1,34 @@
 # Estilo REST para la interfaz de usuarios 
 
-* Estado: 
+* Estado: Aceptado.
 * Decisores: Daniel Liszewski, Alicia Merino.
 * Fecha: 5/11/2019
 
 ## Contamos con una API REST que se basa en el estilo REST 
-Este estilo proporciona una 鷑ica interfaz la cual sea f醕il de administrar y gestionar.
+Este estilo proporciona una 煤nica interfaz la cual sea f谩cil de administrar y gestionar.
 
 
-## Motivos de la decisi髇.
+## Motivos de la decisi贸n.
 
-* Motivaci髇 1: Requisito R21: Suscripci髇 a noticias generadas.
-* Motivaci髇 2: Requisito R22: Mantener la informaci髇 actualizada.
-* Motivaci髇 3: Requisito R23: Proporcionar una interfaz com鷑 para todos los usuarios.
+* Motivaci贸n 1: Requisito R21: Suscripci贸n a noticias generadas.
+* Motivaci贸n 2: Requisito R22: Mantener la informaci贸n actualizada.
+* Motivaci贸n 3: Requisito R23: Proporcionar una interfaz com煤n para todos los usuarios.
 
 ## Opciones consideradas.
 
-* Opci髇 1: Estilo REST
+* Opci贸n 1: Estilo REST
 
-## Decisi髇 resultante.
+## Decisi贸n resultante.
 
-Opci髇 escogida: Opci髇 1: "Estilo REST", por su dinamismo a la hora de a馻dir funciones extra y por su f醕il gesti髇
+Opci贸n escogida: Opci贸n 1: "Estilo REST", por su dinamismo a la hora de a帽adir funciones extra y por su f谩cil gesti贸n
 
 
 ### Consecuencias positivas
 
 * Se incluyen funcionalidades extras con mayor facilidad.
-* Facilidad para proporcionar una interfaz intuitiva y modificaci髇 en un futuro de la misma con total flexibilidad.
-* La separaci髇 entre cliente-servidor ofrece una centralizaci髇 del control, de manera que el sistema no puede ser da馻do.
+* Facilidad para proporcionar una interfaz intuitiva y modificaci贸n en un futuro de la misma con total flexibilidad.
+* La separaci贸n entre cliente-servidor ofrece una centralizaci贸n del control, de manera que el sistema no puede ser da帽ado.
 
 ### Consecuencias negativas
+
+* Es un protocolo menos robusto y seguro que el protocolo SOAP.
