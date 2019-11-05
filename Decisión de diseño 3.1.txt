@@ -30,3 +30,5 @@ Opción escogida: Opción 1: porque nos permite comunicarnos con los agentes act
 modo, qué se haga con la aplicación, aunque habrá datos que no podrán modificarse.
 
 ### Consecuencias negativas
+
+* 
