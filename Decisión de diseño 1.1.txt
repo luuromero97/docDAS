@@ -13,6 +13,7 @@ A estos subsistemas deseamos enviarles informacíon, y así mismo, estos deben e
 * Motivación 2: Requisito R2: Gestionar los diferentes elementos activos de emergencia.
 * Motivación 3: Requisito R3: Monitorizar y gestionar los sistemas de emergencia.
 * Motivación 4: Requisito R11: Detectar emergencias inesperadas de incendios.
+* Motivación 5: Requisito R12: Enviar un SMS y una alerta al sistema central.
 
 ## Opciones consideradas.
 
