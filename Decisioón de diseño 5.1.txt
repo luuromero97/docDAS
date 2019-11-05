@@ -1,0 +1,32 @@
+# Arquitectura de microservicios.
+
+* Estado: Aceptado.
+* Decisores: Daniel Liszewski, Alicia Merino.
+* Fecha: 05/10/2019
+
+## Tenemos la necesidad de que diversos nodos funcionales realicen diferentes actividades.
+
+## Motivos de la decisión.
+
+* Motivación 1: Requisito R13: Gestionar hasta 20 eventos simultáneos.
+* Motivación 2: Requisito R14: Atender peticiones de usuarios.
+* Motivación 3: Requisito R15: Pre-asignar unidades activas disponibles.
+
+## Opciones consideradas.
+
+* Opción 1: Arquitectura de microservicios.
+
+## Decisión resultante.
+
+Opción escogida: "Opción 1", porque nos permite realizar múltiples servicios de forma organizada.
+
+### Consecuencias positivas
+
+* Se cumplen los requisitos del sistema.
+* Los nodos (microservicios) se podran ocupar independientemente de sus tareas, pudiendo manterner una comunicación ligera.
+* Un microservicio puede disponer de un sistema de almacenaje de datos, permitiéndonos controlar el número de eventos simultáneos solicitados.
+* Se dispone de un microservicio que realice la tarea de pre-asignar unidades activas disponebles, estando conectado a la base de datos de unidades activas.
+
+### Consecuencias negativas
+
+
