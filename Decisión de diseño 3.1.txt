@@ -17,6 +17,7 @@ La utilidad de esta interfaz es la de que todas las aplicaciones se comuniquen m
 ## Opciones consideradas.
 
 * Opción 1: Estilo REST
+* Opción 2: Estilo SOAP
 
 ## Decisión resultante.
 
