@@ -1,21 +1,21 @@
-# Decisión de diseño 2.2 y 2.2.1: Estilo monolítico y sistema de inicio de sesión.
+# DecisiÃ³n de diseÃ±o 2.2 y 2.2.1: Estilo monolÃ­tico y sistema de inicio de sesiÃ³n.
 
 ## Elementos involucrados.
-* Recepción de llamadas.
-* Ordenación de llamadas.
-* Inicio de sesión.
+* RecepciÃ³n de llamadas.
+* OrdenaciÃ³n de llamadas.
+* Inicio de sesiÃ³n.
 * Sistema de interfaz central.
 
 ### Flujo de eventos llamada.
-* Paso 1: El sistema recibira llamadas, por cada llamada se guaradará un mensaje de voz de la persona que solicita el servivio de atención y su número de teléfono.
-* Paso 2: Despues de recopilar la voz y el número la llamada se almmacenará en una cola.
-* Paso 3: Cuando la llamada pueda ser atendida el número de esta se mostrará en la pantalla del operador.
-* Paso 4: El operador completará la información de la emergencia mediante diversas preguntas.
-* Paso 5: El operdador finalizará la llamada y enviará la información de la emergencia al sistema ccentral de control para que este la gestione.
-* Paso 6: El operdador recibirá la siguiente llamada en espera.
+* Paso 1: El sistema recibira llamadas, por cada llamada se guaradarÃ¡ un mensaje de voz de la persona que solicita el servivio de atenciÃ³n y su nÃºmero de telÃ©fono.
+* Paso 2: Despues de recopilar la voz y el nÃºmero la llamada se almmacenarÃ¡ en una cola.
+* Paso 3: Cuando la llamada pueda ser atendida el nÃºmero de esta se mostrarÃ¡ en la pantalla del operador.
+* Paso 4: El operador completarÃ¡ la informaciÃ³n de la emergencia mediante diversas preguntas.
+* Paso 5: El operdador finalizarÃ¡ la llamada y enviarÃ¡ la informaciÃ³n de la emergencia al sistema central de control para que este la gestione.
+* Paso 6: El operdador recibirÃ¡ la siguiente llamada en espera.
 
-### Flujo de eventos inicio de sesión.
-* Paso 0: Se cuenta con una base de datos con la información pertinente de cada operador.
-* Paso 1: El operador para iniciar el servicio de atención de llamadas inicia sesión con su nombre de usuario y contraseña.
-* Paso 2: El sistema comprueba dicho usuario y contraseña en la base de datos y si los datos son correctos se inicia la sesión.
-* Paso 3: El sistema tendrá constantemente en cuenta el número de operadores activos para asignar las llamadas en espera.
+### Flujo de eventos inicio de sesiÃ³n.
+* Paso 0: Se cuenta con una base de datos con la informaciÃ³n pertinente de cada operador.
+* Paso 1: El operador para iniciar el servicio de atenciÃ³n de llamadas inicia sesiÃ³n con su nombre de usuario y contraseÃ±a.
+* Paso 2: El sistema comprueba dicho usuario y contraseÃ±a en la base de datos y si los datos son correctos se inicia la sesiÃ³n.
+* Paso 3: El sistema tendrÃ¡ constantemente en cuenta el nÃºmero de operadores activos para asignar las llamadas en espera.
