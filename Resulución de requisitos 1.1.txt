@@ -3,9 +3,11 @@
 ## Actores que envían eventos:
 * Detector de incendios.
 * Sistema de interfaz central.
-* Elemetnos activos de emergencia.
+* Elementos activos de emergencia.
 * Cámaras de video-vigilancia.
-* Centro de control remoto.
+
+## Actores que procesan eventos:
+*Centro de control remoto.
 
 ## Actores que reciben eventos:
 * Sistema de interfaz central.
