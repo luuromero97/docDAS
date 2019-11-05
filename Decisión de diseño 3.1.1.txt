@@ -1,6 +1,6 @@
 # Sistema de inicio de sesión según el tipo de usuario.
 
-* Estado: 
+* Estado: Aceptado.
 * Decisores: Daniel Liszewski, Alicia Merino.
 * Fecha: 30/10/2019
 
