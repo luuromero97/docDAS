@@ -5,6 +5,7 @@
 * Sistema de interfaz central.
 * Elemetnos activos de emergencia.
 * Cámaras de video-vigilancia.
+* Centro de control remoto.
 
 ## Actores que reciben eventos:
 * Sistema de interfaz central.
@@ -12,8 +13,8 @@
 
 
 ### Flujo de eventos:
-* Flujo 1: Sensor de incendios > interfaz común > Elemento activo de emergencia.
-	- Cuando el detector de emergencias inesperadas detecta que su detector de incendios se ha activado, envía una señal vía radio al sistema de interfaz central.
+* Flujo 1: Sensor de incendios > centro de control remoto > interfaz común > Elemento activo de emergencia.
+	- Cuando el detector de emergencias inesperadas detecta que su detector de incendios se ha activado, envía una señal vía radio al centro de control remoto, el cual mediante un mesaje SMS envía una alerta al sistema de interfaz central.
  	- En el momento en el que la interfaz recibe el evento del subsistema de emergencias inesperadas envía un evento de activación a los elementos
 	activos de emergencia que considere necesarios. Cúantos deberá activar vendra determinado por la gravedad del incendio que ha recibido como
 	infomación por parte del subsistema de emergencias inespaeradas.
