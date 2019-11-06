@@ -1,4 +1,4 @@
-# Estilo Pipe and Filter.
+# Estilo Pipe and Filter para organizar el flujo del sistema de llamadas.
 * Estado: Rechazado.
 * Decisores: Daniel Liszewski, Alicia Merino.
 * Fecha: 15/10/2019
