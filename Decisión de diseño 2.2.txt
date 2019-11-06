@@ -1,4 +1,4 @@
-# Estilo Monolítico
+# Subsistema de gestión de llamadas.
 * Estado: Aceptada.
 * Decisores: Daniel Liszewski, Alicia Merino.
 * Fecha: 23/10/2019
@@ -10,8 +10,8 @@
 * Motivación 2: El sistema de llamadas no requerirá expandirse por lo que no necesita ser modular.
 
 ## Opciones consideradas.
-* Opción 1: Estilo Pipe and Filter.
-* Opción 2: Estilo Monolítico.
+* Opción 1: Estilo Pipe and Filter para el flujo del sistema de llamadas.
+* Opción 2: Subsistema de gestión de llamadas.
 
 ## Decisión resultante.
 Opción escogida: "Opción 2" Su implementación será más sencilla por falta de modularidad y no requerirá expandirse.
