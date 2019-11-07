@@ -1,66 +1,31 @@
 # Estilo SOAP
 
-
-
-* Estado: Aceptado.
-
+* Estado: Rechazado.
 * Decisores: Daniel Liszewski, Alicia Merino.
-
 * Fecha: 29/10/2019
 
-
-
 ## Contamos con una API SOAP que se basa en el estilo SOAP
-
 La utilidad de esta interfaz es la de que todas las aplicaciones se comuniquen mejor entre ellas
 
-
-
-
-
 ## Motivos de la decisión.
-
-
-
 * Motivación 1: Requisito R9: Los operarios recibirán información instantáneamente. 
-
 * Motivación 2: Requisito R4: La interfaz se adapta a otras plataformas de trabajo.
-
 * Motivación 3: requisito R7: Monitorizar y asignar distintos tipos de recursos activos.
-
-
 
 ## Opciones consideradas.
 
-
-
 * Opción 1: Estilo REST
-
 * Opción 2: Estilo SOAP
 
-
-
 ## Decisión resultante.
-
-
-
 Opción escogida: Opción 1: porque nos permite comunicarnos con los agentes activos de emergencia en tiempo real además de adaptar la interfaz para cada uno.
 
-
-
 ### Consecuencias positivas
-
 * Es un protocolo mucho más robusto.
-
 * Es más seguro en la ejecución que el estilo REST.
-
 * SOAP es un protocolo con una especificación completa y compleja, por lo que es capaz de dar soluciones a casi cualquier necesidad comunicativa. 
 
-
-
 ### Consecuencias negativas
-
 * SOAP es un formato más pesado, tanto en tamaño como en procesamiento.
-
 * Es más difícil de entender, por lo que es más complejo de codificar y documentar.
 
