@@ -1,0 +1,22 @@
+# Decisión de diseño 7.2.
+
+## Elementos involucrados.
+* Detectores de incendios.
+* Centro de control remoto.
+* Sistema intermediario de interpretación.
+*Sistema central de control.
+
+### Flujo de eventos.
+* Flujo 1: El detector de incendios se activa y este le envía una señal radio al centro de control remoto.
+* Flujo 2: El centro de control remoto recibe el SMS, interpreta el aviso de incendio y evía un SMS al sistema intermediario.
+* Flujo 3: El sistema intermediario recibe la señal SMS y la transmite en un formato común para la cola de emergencias.
+
+#### Clases del sistema:
+* Detector de incendios.
+* Centro de control remoto.
+* Sistema intermediario.
+
+##### Relaciones entre las clases:
+* Detector de incendios - Centro de control remoto.
+* Centro de control remoto - sistema intermediario.
+* Sistema intermediario - sistema central de control.

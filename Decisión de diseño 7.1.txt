@@ -1,0 +1,30 @@
+# Susbsitema de emergencias inesperadas.
+
+* Estado: Rechazada.
+* Decisores: Daniel Liszewski, Alicia Merino.
+* Fecha: 07/11/2019
+
+## Es necesario un subsitema que gestione emergencias inesperadas y que informe al sistema central de control.
+
+## Motivos de la decisión.
+
+* Motivación 1: Requisito R11: Detectar emergencias inesperadas de incendios.
+* Motivación 2: Requisito R12: Enviar un SMS y una alerta al centro de control remoto.
+
+## Opciones consideradas.
+
+* Opción 1: Subsistema de emergencias inesperadas.
+* Opción 2: Subsistema de emergencias inesperadas con módulo intermedio entre el centro de control remoto y la cola de emergencias(canal común).
+
+## Decisión resultante.
+
+Opción escogida: "Opción 2", porque nos permite mantener un subsitema detector de emergencias de manera independiente.
+
+### Consecuencias positivas
+
+* Se cumplen los requisitos del sistema.
+* Se pueden añadir o eliminar sensores de una forma sencilla.
+
+### Consecuencias negativas
+
+* En el sistema central de control disponemos de una cola común fuertemente tipada para todas las emergencias que no contempla el uso de SMS.
