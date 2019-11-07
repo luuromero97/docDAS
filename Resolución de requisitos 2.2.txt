@@ -32,4 +32,4 @@
 * Receptor de llamadas - Sistema de login: El sistema de login controla el tamaño de la cola del receptor de llamadas (entre 15 y 20).
 * Sistema de login - cabina telefónica: Cada usuario de la cabina telefónica debe logearse.
 * Cabina telefónica - recopilador de peticiones.
-* Recopiador de peticiones - Sistema central de control.
+* Recopiador de peticiones - Sistema central de control: Se mandan las peticiones al canal común de emergencias del sistema central de control, donde también se reciben las emergencias de otros subsistemas (detector de emergencias inesperdas y cámaras de video-vigilancia).
