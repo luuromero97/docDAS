@@ -1,6 +1,6 @@
-# Arquitectura de microservicios.
+# Subsistema interno basado en microservicios.
 
-* Estado: Aceptado.
+* Estado: Rechazada.
 * Decisores: Daniel Liszewski, Alicia Merino.
 * Fecha: 05/10/2019
 
@@ -14,11 +14,11 @@
 
 ## Opciones consideradas.
 
-* Opción 1: Arquitectura de microservicios.
+* Opción 1: Subsistema basado en microservicios.
 
 ## Decisión resultante.
 
-Opción escogida: "Opción 1", porque nos permite realizar múltiples servicios de forma organizada.
+Opción escogida: "Opción" .
 
 ### Consecuencias positivas
 
