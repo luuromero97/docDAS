@@ -1,4 +1,4 @@
-# Estilo Pipe and Filter para organizar el flujo del sistema de llamadas.
+# Subsistema basado en pipe and filter para gestionar las llamadas.
 * Estado: Rechazado.
 * Decisores: Daniel Liszewski, Alicia Merino.
 * Fecha: 15/10/2019
@@ -12,8 +12,8 @@ A medida que se generan los datos estos se envían de forma inmediata.
 
 ## Opciones consideradas.
 
-* Opción 1: Estilo Pipe and Filter.
-* Opción 2: Estilo Monolítico.
+* Opción 1: subsiema Pipe and Filter.
+* Opción 2: Subistema Monolítico.
 
 ## Decisión resultante.
 
