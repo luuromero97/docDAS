@@ -1,0 +1,30 @@
+# Cámaras video-vigilancia.
+
+* Estado: Aceptada.
+* Decisores: Daniel Liszewski, Alicia Merino.
+* Fecha: 07/11/2019
+
+## Necesitamos un conjunto de cámaras que estén conectadas al sistema central de gestión.
+
+## Motivos de la decisión.
+
+* Motivación 1: Requisito R3: Se necesitan monitorizar las cámaras de video-vigilancia.
+
+## Opciones consideradas.
+
+* Opción 1: Cámaras video-vigilancia.
+* Opción 2: Subsistema intermediario entre las cámaras y el sistema central de control(SCC).
+
+## Decisión resultante.
+
+Opción escogida: "Opción 2", porque nos permite una gestión más sencilla de las cámaras.  
+
+### Consecuencias positivas
+
+* Se cumplen los requisitos del sistema.
+* Se pueden añadir o eliminar cámaras de una forma mucho más sencilla y rápida.
+* Resulta más facil monitorizar las imágenes desde un subsistema.
+
+### Consecuencias negativas
+
+* Dependencia de un sistema intermediario, si este falla se pierde el control de las cámaras.

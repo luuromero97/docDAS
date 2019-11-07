@@ -1,0 +1,23 @@
+# Decisión de diseño 6.2: sistema intermediario entre las cámaras y el sistema central de control.
+
+## Elementos involucrados.
+* Cámaras de video-vigilancia.
+* Gestor de cámaras.
+* Centro de monitorización.
+* Sistema central de control.
+
+### Flujo de eventos.
+*Flujo 1: Las cámaras registran imágenes que envían al gestor de cámaras. El gestor de cámaras posteriormente asigna las imágenes recibidas a una serie de monitores en el centro
+de monitorización.
+*Flujo 2: Los operadores del centro de monitorización observan las imágenes recibidas y si es conveniente activan una emergencia.
+
+#### Clases del sistema:
+* Cámaras: Cada cámara contara con almacenaje de imágenes, video, audio y fecha de grabación.
+* Gestor de cámaras: Contará con una lista de cámaras y otra lista de cabinas de monitorización.
+* Cabinas de monitorización: Cuenta con un monitor para la visualización de las imágenes y un boton para activar emergencias.
+
+##### Relaciones entre las clases:
+* Cámaras - Gestor de cámaras: Las cámaras envian las imágenes al gestor.
+* Gestor de cámaras - Cabinas de monitorización: El gestor de cámaras asigna cámaras a distintas cabinas y les envía las imágenes de estas.
+* Cabinas de monitorización - Sistema central de control: Las cabinas mandan emergencias al canal común de emergencias, que es compartido con el resto de
+subsistemas (llamadas teleónicas y detectores de emergencias inesperadas).
