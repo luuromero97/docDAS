@@ -1,4 +1,4 @@
-# Decisión de diseño 1.1: Estilo por eventos.
+# Decisión de diseño 1.1 y 6.1: Estilo por eventos.
 
 ## Actores que envían eventos:
 * Detector de incendios.
