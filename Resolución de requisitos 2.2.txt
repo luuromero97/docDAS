@@ -5,7 +5,7 @@
 * Ordenación de llamadas.
 * Inicio de sesión.
 * Módulo recopilador de emergencias.
-* Sistema de interfaz central.
+* Sistema central de control.
 
 ### Flujo de eventos llamada.
 * Paso 1: El sistema recibira llamadas, por cada llamada se guaradará un mensaje de voz de la persona que solicita el servivio de atención y su número de teléfono.
@@ -32,4 +32,4 @@
 * Receptor de llamadas - Sistema de login: El sistema de login controla el tamaño de la cola del receptor de llamadas (entre 15 y 20).
 * Sistema de login - cabina telefónica: Cada usuario de la cabina telefónica debe logearse.
 * Cabina telefónica - recopilador de peticiones.
-* Recopiador de peticiones - Sistema central de gestión.
+* Recopiador de peticiones - Sistema central de control.
