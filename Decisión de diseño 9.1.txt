@@ -1,0 +1,28 @@
+# WEB responsive conectada a BBDD de recursos activos (decisión 8.1) y a BBDD de usuarios del sistema (decisión 3.1).
+
+* Estado: Aceptada.
+* Decisores: Daniel Liszewski, Alicia Merino.
+* Fecha: 08/11/2019
+
+## Es necesaria una página web responsive para que pueda adaptarse a cualquier tipo de dispositivo.
+
+## Motivos de la decisión.
+
+* Motivación 1: Requisito R4: Adaptar la interfaz a múltiples plataformas.
+
+## Opciones consideradas.
+
+* Opción 1: Web responsive.
+
+## Decisión resultante.
+
+Opción escogida: "Opción 1", porque nos permite adaptar la interfaz de la web a los múltiples dispositivos que puedan acceder a esta.
+
+### Consecuencias positivas
+
+* Se cumple con los requisitos.
+* Se podrá acceder a la información de las emergencias desde cualquier tipo de dispositivo.
+
+### Consecuencias negativas
+
+* La págnia web necesita un mayor tiempo de desarrollo.
