@@ -11,6 +11,7 @@
 * Motivación 1: Requisito R13: Gestionar hasta 20 eventos simultáneos.
 * Motivación 2: Requisito R14: Atender las diferentes peticiones a través de nodos funcionales.
 * Motivación 3: Requisito R9: Recibir información en tiempo real.
+* Motivación 4: Requsiti R22: Mantener la información actualizada.
 
 ## Opciones consideradas.
 
