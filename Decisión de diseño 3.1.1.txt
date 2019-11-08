@@ -7,7 +7,7 @@
 ## Se requiere de una aplicación web que notifique a los distintos usuarios del sistema según categoría.
 
 ## Motivos de la decisión.
-* Motivación 1: Requisito R8: Dividir los usuarios del sistema.
+* Motivación 1: Limitar el acceso de información a los distintos tipos de usuario.
 
 ## Opciones consideradas.
 * Opción 1: Sistema de inicio de sesión dividida.
@@ -18,7 +18,6 @@ Opción escogida: "Opción 1" porque es un sistema rápido y clasificatorio, lo 
 ### Consecuencias positivas
 * Permite enviar información de forma directa a los distintos usuarios del sistema, de forma que estos estén
 mejor informados de lo que tienen que tramitar.
-
 
 ### Consecuencias negativas
 * El hecho de añadir tipo de usuario hará que la BBDD tenga que recoger más datos, lo que significará un aumento en la necesidad de capacidad
