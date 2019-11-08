@@ -1,0 +1,32 @@
+# Nodos funcionales
+
+* Estado: Rechazado.
+* Decisores: Daniel Liszewski, Alicia Merino.
+* Fecha: 08/11/2019
+
+## Necesitamos un conjunto de controladores que sean capaces de gestionar eventos de emergencia y atender diferentes peticiones.
+
+## Motivos de la decisión.
+
+* Motivación 1: Requisito R13: Gestionar hasta 20 eventos simultáneos.
+* Motivación 2: Requisito R14: Atender las diferentes peticiones a través de nodos funcionales.
+
+## Opciones consideradas.
+
+* Opción 1: Nodos funcionales basados en microservicios.
+* Opción 2: Nodos funcionales.
+* Opción 3: Nodos funcionales con información en tiempo real.
+
+## Decisión resultante.
+
+Opción escogida: "Opción 3", porque nos permite una gestión más completa del sistema.
+
+### Consecuencias positivas
+
+* Se cumplen los requisitos del sistema.
+* Nos permite gestionar el númeor de eventos indicados.
+* Este sistema no va a necesitar expandirse en cuanto a los servicios que puede ofrecer.
+
+### Consecuencias negativas
+
+* No disponemos de acceso en tiempo real para los operarios de las unuidades activas.
