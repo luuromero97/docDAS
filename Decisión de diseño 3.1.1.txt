@@ -11,9 +11,10 @@
 
 ## Opciones consideradas.
 * Opción 1: Sistema de inicio de sesión dividida.
+* Opción 2: Sistema sin ininicio de sesión.
 
 ## Decisión resultante.
-Opción escogida: "Opción 1" porque es un sistema rápido y clasificatorio, lo que lo hace más dinámico.
+Opción escogida: "Opción 1" porque es un sistema clasificatorio, 
 
 ### Consecuencias positivas
 * Permite enviar información de forma directa a los distintos usuarios del sistema, de forma que estos estén
