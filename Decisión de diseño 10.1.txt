@@ -1,0 +1,29 @@
+# Comunicaciones entre agentes activos.
+
+* Estado: Rechazada.
+* Decisores: Daniel Liszewski, Alicia Merino.
+* Fecha: 08/11/2019
+
+## Es necesaria disponer comunicaciones entre la policía y los militares.
+
+## Motivos de la decisión.
+
+* Motivación 1: Requisito R17: Coordinar las unidades de policía y Unidad Militar de Emergencias.
+
+## Opciones consideradas.
+
+* Opción 1: Módulo de cifrado.
+* Opción 2: Comunicación entre agentes activos y módulo de cifrado para las comunicaciones por radio.
+
+## Decisión resultante.
+
+Opción escogida: "Opción 2, porque nos permite mantener comunicaciones entre la policía y los militares y que además estas sean cifradas.
+
+### Consecuencias positivas
+
+* Se cumple con los requisitos.
+* Podemos permitir la comunicación entre ambos elementos activos.
+
+### Consecuencias negativas
+
+* No contamos con una comunicacíon segura.
