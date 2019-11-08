@@ -1,33 +1,27 @@
-# Estilo REST 
+# Base de datos de usuarios del sistema.
 
 * Estado: Aceptado.
 * Decisores: Daniel Liszewski, Alicia Merino.
 * Fecha: 29/10/2019
 
-## Contamos con una API REST que se basa en el estilo REST 
-La utilidad de esta interfaz es la de que todas las aplicaciones se comuniquen mejor entre ellas
-
+## Necesitamos una BBDD que almacene los distintos tipos de usuarios del sistema.
 
 ## Motivos de la decisión.
 
-* Motivación 1: Requisito R9: Los operarios recibirán información instantáneamente. 
+* Motivación 1: Requisito R8: Dividir los usuarios del sistema en distintos tipos. 
 
 ## Opciones consideradas.
 
-* Opción 1: Estilo REST
-* Opción 2: Estilo SOAP
+* Opción 1: BBDD de usuarios del sistema.
 
 ## Decisión resultante.
 
-Opción escogida: Opción 1: porque nos permite comunicarnos con los agentes activos de emergencia en tiempo real además de adaptar la interfaz para cada uno.
+Opción escogida: Opción 1: porque almacenar todos los usarios del sistema junto a sus controseñas.
 
 ### Consecuencias positivas
 
-* Se incluyen nuevas funcionalidades con mayor facilidad.
-* La independencia que ofrece este estilo permite adaptarlo a otras plataformas, permitiéndole mayor compatibilidad.
-* La separación cliente-servidor proporciona la indiferencia del cliente hacia cómo esté hecha la API y, del mismo
-modo, qué se haga con la aplicación, aunque habrá datos que no podrán modificarse.
+* Cumplimos con los requisitos del sistema.
 
 ### Consecuencias negativas
 
-* Es un protocolo menos robusto y seguro que el protocolo SOAP.
+* Dependemos de los posibles fallos que nos impidan acceder a los datos.
