@@ -11,8 +11,6 @@ La utilidad de esta interfaz es la de que todas las aplicaciones se comuniquen m
 ## Motivos de la decisión.
 
 * Motivación 1: Requisito R9: Los operarios recibirán información instantáneamente. 
-* Motivación 2: Requisito R4: La interfaz se adapta a otras plataformas de trabajo.
-* Motivación 3: requisito R7: Monitorizar y asignar distintos tipos de recursos activos.
 
 ## Opciones consideradas.
 
