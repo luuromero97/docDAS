@@ -1,0 +1,30 @@
+# Subsistema interno basado en microservicios.
+
+* Estado: Rechazada.
+* Decisores: Daniel Liszewski, Alicia Merino.
+* Fecha: 05/10/2019
+
+## Tenemos la necesidad de que diversos nodos funcionales realicen diferentes actividades.
+
+## Motivos de la decisión.
+
+* Motivación 1: Requisito R13: Gestionar hasta 20 eventos simultáneos.
+* Motivación 2: Requisito R14: Atender peticiones de usuarios.
+
+## Opciones consideradas.
+
+* Opción 1: Subsistema basado en microservicios.
+
+## Decisión resultante.
+
+Opción escogida: "Opción" .
+
+### Consecuencias positivas
+
+* Se cumplen los requisitos del sistema.
+* Los nodos (microservicios) se podran ocupar independientemente de sus tareas.
+* Un microservicio puede disponer de un sistema de almacenaje de datos, permitiéndonos controlar el número de eventos simultáneos solicitados.
+
+### Consecuencias negativas
+
+* Cada nado funcional no pude estar fuerte acoplado con los demás.
