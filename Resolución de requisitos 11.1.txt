@@ -1,0 +1,22 @@
+# Decisión de diseño 11.1.
+
+## Elementos involucrados.
+* Nodo funcional.
+* Gestión de llamadas externas.
+* Módulo de traducción.
+* Países colindantes.
+
+### Flujo de eventos.
+* Flujo 1: Cuando se quiera mantener una comunicación con un país externo se notificará al gestor de llamadas externas para que este redireccione la comunicación por el módulo de traducción.
+* Flujo 2: La respuesta del país vendra también por el módulo de traducción y el gestor de llamadas la redireccionará a los nodos funcionales.
+
+#### Clases del sistema:
+* Nodo funcional.
+* Gestión de llamadas externas.
+* Módulo de traducción.
+* Países colindantes.
+
+##### Relaciones entre las clases:
+* Nodo funcional - Gestión de llamadas externas.
+* Gestión de llamadas externas - Módulo de traducción.
+* Módulo de traducción - Países.
