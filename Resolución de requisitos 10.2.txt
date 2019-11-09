@@ -1,0 +1,17 @@
+# Decisión de diseño 10.2.
+
+## Elementos involucrados.
+* Nodos funcionales.
+* Gestión de llamadas externas (elementos activos).
+
+### Flujo de eventos.
+* Flujo 1: Cada vez que se quiera realizar una comunicación con los elementos acticos se empleara el múdulo de gestión de llamadas externas.
+
+#### Clases del sistema:
+* Nodo funcional.
+* Gestión de llamadas externas.
+* Policía, bomberos, etc.
+
+##### Relaciones entre las clases:
+* Nodo funcional - Gestión de llamadas externas.
+* Gestión de llamadas externas - Policía, bomberos, etc.
