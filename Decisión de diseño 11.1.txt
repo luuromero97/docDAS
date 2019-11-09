@@ -1,0 +1,29 @@
+# Sistema de comuniciones con otros países.
+
+* Estado: Aceptada.
+* Decisores: Daniel Liszewski, Alicia Merino.
+* Fecha: 09/11/2019
+
+## Deseamos tener un sistema que nos permita mantener comunicaciones con otros píses, para ello emplearemos el módulo de gestión de llamadas externas ya implementado.
+
+## Motivos de la decisión.
+
+* Motivación 1: Requisito R19: Permitir conexiones internacionales con otros países.
+* Motivación 2: reqisito R20: Módulo de traducción.
+
+## Opciones consideradas.
+
+* Opción 1: Sistema de comunicaciones con otros países empleando el sistema de gestión de llamadas y un módulo de traduccíon.
+
+## Decisión resultante.
+
+Opción escogida: "Opción 1, pues nos permite mantener comunicaciones en tiempo real traducidas".
+
+### Consecuencias positivas
+
+* Se cumple con los requisitos.
+* La traducción se realiza en tiempo real.
+
+### Consecuencias negativas
+
+* La comunicación puede ser lenta debido al módulo de traducción intermedio.
