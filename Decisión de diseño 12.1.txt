@@ -1,0 +1,28 @@
+# Sistema de publicación de noticias basado en patrón publisher.
+
+* Estado: Aceptada.
+* Decisores: Daniel Liszewski, Alicia Merino.
+* Fecha: 09/11/2019
+
+## Necesitamos un sistema que gestione la publicación de noticias a ciertos usuarios suscritos.
+
+## Motivos de la decisión.
+
+* Motivación 1: Requisito R21: Suscripción a noticias.
+
+## Opciones consideradas.
+
+* Opción 1: Sistema de publicación de noticias basado en patrón publisher.
+
+## Decisión resultante.
+
+Opción escogida: "Opción 1, pues nos permite gestionar la publiación de noticias".
+
+### Consecuencias positivas
+
+* Se cumple con los requisitos.
+* La publicación de noticias se realiza a los usuarios que estén suscritos a este sistema gracias al patrón publisher.
+
+### Consecuencias negativas
+
+* Necesitamos utilizar la BBDD de los usuarios.

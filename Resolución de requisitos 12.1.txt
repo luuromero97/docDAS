@@ -1,0 +1,25 @@
+# Decisión de diseño 12.1.
+
+## Elementos involucrados.
+* Cola de emergencias.
+* Sistema de noticias basado en patrón publisher.
+* BBDD usuarios.
+
+### Flujo de eventos.
+* Flujo 1: Cada vez que entra una emergencia en la cola el sistema de noticias genera la noticia con su correspondiente notificación a los usarios pertinentes.
+
+#### Clases del sistema:
+* Cola.
+* Sistema de noticias.
+* BBDD.
+
+#### Métodos:
+* Leer cola.
+* Publicar noticia.
+
+#### Propiedades:
+* Lista de usuarios del sistema.
+
+##### Relaciones entre las clases:
+* Cola - Sistema de noticias.
+* BBDD - Sistema de noticias.
