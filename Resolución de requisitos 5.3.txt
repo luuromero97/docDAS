@@ -16,7 +16,7 @@
 actualizar la información de la emergencia en curso desde la WEB. Ejemplo: decir que la emergecia ha sido tratada.
 * Recoger emergencia de cola: Cuando un nodo funcional se encuentra disponible recoge la emergecia que se encuentre en la primera posición de la cola.
 * Actualizar BBDD: Cuadno un nodo trata una nueva emergencia actualiza la información de la BBDD en base a los recursos activos que están siendo utilizados en la emergencia.
-* Notificar policía, bomberos, ambulancia y militares.
+* Notificar policía, bomberos, ambulancia y militares. Este método llamará a la clase gestión de llamadas externas.
 
 #### Propiedades de cada nodo funcional.
 * Lista de agentes activos implicados en la emergencia.
