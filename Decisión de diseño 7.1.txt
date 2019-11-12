@@ -1,4 +1,4 @@
-# Susbsitema de emergencias inesperadas.
+# Subsistema de emergencias inesperadas.
 
 * Estado: Rechazada.
 * Decisores: Daniel Liszewski, Alicia Merino.
