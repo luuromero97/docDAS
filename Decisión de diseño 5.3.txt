@@ -26,6 +26,6 @@ Opción escogida: "Opción 3", porque nos permite una gestión más completa del
 ### Consecuencias positivas
 
 * Se cumplen los requisitos del sistema.
-* Nos permite gestionar el númeor de eventos indicados.
+* Nos permite gestionar el número de eventos indicados.
 * Este sistema no va a necesitar expandirse en cuanto a los servicios que puede ofrecer.
-* Disponemos de acceso en tiempo real para los operarios de las unuidades activas.
+* Disponemos de acceso en tiempo real para los operarios de las unidades activas.
