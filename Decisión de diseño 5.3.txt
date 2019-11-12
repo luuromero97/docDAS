@@ -1,6 +1,6 @@
 # Nodos funcionales con información en tiempo real.
 
-* Estado: Rechazado.
+* Estado: Aceptado.
 * Decisores: Daniel Liszewski, Alicia Merino.
 * Fecha: 08/11/2019
 
