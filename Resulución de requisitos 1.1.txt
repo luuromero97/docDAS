@@ -3,7 +3,7 @@
 ## Actores que envían eventos:
 * Subsistema de llamadas.
 * Subsistema de video-vigilancia.
-* Subsistema de detecto de emergencias insesperadas.
+* Subsistema de detector de emergencias insesperadas.
 * Sistema de control central.
 * Elementos activos de emergencia.
 
@@ -22,7 +22,7 @@
 	- Desarrollado en resolución de requisitos 7.2.
 	
 * Flujo 2: Elementos activos de emergencia > Sistema de interfaz general > Emergencia en curso.
-	- Desarrolado en la resolución de requistios 3.2.
+	- Desarrollado en la resolución de requistios 3.2.
 
 * Flujo 3: Subsistema de cámaras - sistema central de control.
 	- Desarrollado en resolución de requisitos 6.2.
