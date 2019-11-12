@@ -7,15 +7,14 @@
 * WEB
 
 ### Flujo de eventos.
-* Flujo 1: Cada funcional se encuntra en espera hsata que le llegue una emergencia por la cola.
-* Flujo 2: Cuando un nodo recibe la información de una emergencia la mantiene en memoria principal para que se pueda acceder desde el servidor WEB.
-* Flujo 3: Cuando un nodo recibe la información de una emergencia accede a la BBDD para asignar recursos activos.
+* Flujo 1: Cada nodo funcional se encuentra en espera hasta que le llegue una emergencia por la cola.
+* Flujo 2: Cuando un nodo recibe la información de una emergencia, la mantiene en memoria principal para que se pueda acceder desde el servidor WEB.
+* Flujo 3: Cuando un nodo recibe la información de una emergencia, accede a la BBDD para asignar recursos activos.
 
 #### Métodos de cada nodo funcional.
-* Actualizar información: Accede a la información de su memoria principal para actualizar el estado de la emergencia. Este método se utiliza cuando un agente activo quiere
-actualizar la información de la emergencia en curso desde la WEB. Ejemplo: decir que la emergecia ha sido tratada.
-* Recoger emergencia de cola: Cuando un nodo funcional se encuentra disponible recoge la emergecia que se encuentre en la primera posición de la cola.
-* Actualizar BBDD: Cuadno un nodo trata una nueva emergencia actualiza la información de la BBDD en base a los recursos activos que están siendo utilizados en la emergencia.
+* Actualizar información: Accede a la información de su memoria principal para actualizar el estado de la emergencia. Este método se utiliza cuando un agente activo quiere actualizar la información de la emergencia en curso desde la WEB. Ejemplo: decir que la emergencia ha sido tratada.
+* Recoger emergencia de cola: Cuando un nodo funcional se encuentra disponible, recoge la emergencia que se sitúa en la primera posición de la cola.
+* Actualizar BBDD: Cuando un nodo trata una nueva emergencia, actualiza la información de la BBDD en base a los recursos activos que están siendo utilizados en la emergencia.
 * Notificar policía, bomberos, ambulancia y militares. Este método llamará a la clase gestión de llamadas externas.
 
 #### Propiedades de cada nodo funcional.
