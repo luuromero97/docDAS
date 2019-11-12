@@ -4,7 +4,7 @@
 * Decisores: Daniel Liszewski, Alicia Merino.
 * Fecha: 07/11/2019
 
-## Es necesario un subsitema que gestione emergencias inesperadas y que informe al sistema central de control.
+## Es necesario un subsistema que gestione emergencias inesperadas y que informe al sistema central de control.
 
 ## Motivos de la decisión.
 
@@ -18,7 +18,7 @@
 
 ## Decisión resultante.
 
-Opción escogida: "Opción 2", porque nos permite mantener un subsitema detector de emergencias de manera independiente.
+Opción escogida: "Opción 2", porque nos permite mantener un subsistema detector de emergencias de manera independiente.
 
 ### Consecuencias positivas
 
@@ -27,4 +27,4 @@ Opción escogida: "Opción 2", porque nos permite mantener un subsitema detector
 
 ### Consecuencias negativas
 
-* En el sistema central de control disponemos de una cola común fuertemente tipada para todas las emergencias que no contempla el uso de SMS.
+* En el sistema central de control disponemos de una cola común fuertemente tipada para todas las emergencias que no contemplen el uso de SMS.
