@@ -12,7 +12,7 @@ A medida que se generan los datos estos se envían de forma inmediata.
 
 ## Opciones consideradas.
 
-* Opción 1: subsiema Pipe and Filter.
+* Opción 1: Subsistema Pipe and Filter.
 * Opción 2: Subistema Monolítico.
 
 ## Decisión resultante.
