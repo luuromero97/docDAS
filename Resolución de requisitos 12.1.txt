@@ -6,7 +6,7 @@
 * BBDD usuarios.
 
 ### Flujo de eventos.
-* Flujo 1: Cada vez que entra una emergencia en la cola el sistema de noticias genera la noticia con su correspondiente notificación a los usarios pertinentes.
+* Flujo 1: Cada vez que entra una emergencia en la cola, el sistema de noticias genera la noticia con su correspondiente notificación a los usarios pertinentes.
 
 #### Clases del sistema:
 * Cola.
