@@ -1,10 +1,10 @@
-# Susbsitema de emergencias inesperadas con módulo intermedio entre el centro de control remoto y la cola de emergencias(canal común).
+# Subsistema de emergencias inesperadas con módulo intermedio entre el centro de control remoto y la cola de emergencias(canal común).
 
 * Estado: Aceptado.
 * Decisores: Daniel Liszewski, Alicia Merino.
 * Fecha: 07/11/2019
 
-## Es necesario un subsitema que gestione emergencias inesperadas y que informe al sistema central de control.
+## Es necesario un subsistema que gestione emergencias inesperadas y que informe al sistema central de control.
 
 ## Motivos de la decisión.
 
@@ -18,15 +18,15 @@
 
 ## Decisión resultante.
 
-Opción escogida: "Opción 2", porque nos permite mantener un subsitema detector de emergencias de manera independiente y tener un subsistema que intérprete los diferentes formatos de envío.
+Opción escogida: "Opción 2", porque nos permite mantener un subsistema detector de emergencias de manera independiente y tener un subsistema que interprete los diferentes formatos de envío.
 
 ### Consecuencias positivas
 
 * Se cumplen los requisitos del sistema.
 * Se pueden añadir o eliminar sensores de una forma sencilla.
-* El sistema central de control solamente tendrá un cola de emergencias.
-* El sistema intermediario nos permitirá tener otros subsistema que utilice otros métodos de comunicación.
+* El sistema central de control solamente tendrá una cola de emergencias.
+* El sistema intermediario nos permitirá tener otros subsistemas que utilice otros métodos de comunicación.
 
 ### Consecuencias negativas
-* Estamos añadiedo otro sistema que puede retrasar el flujo de información.
+* Estamos añadiendo otro sistema que puede retrasar el flujo de información.
 
