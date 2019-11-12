@@ -1,11 +1,11 @@
-# Estilo por eventos para manejar los diferentes subistemas y sus llamadas y respuestas.
+# Estilo por eventos para manejar los diferentes subsistemas y sus llamadas y respuestas.
 
 * Estado: Aceptado.
 * Decisores: Daniel Liszewski, Alicia Merino.
 * Fecha: 15/10/2019
 
 ## Estamos ante un sistema que tiene una interfaz central que controla diferentes subsistemas.
-A estos subsistemas deseamos enviarles informacíon, y así mismo, estos deben enviarnos informacíon y/o respuestas.
+A estos subsistemas deseamos enviarles información, y así mismo, estos deben enviarnos información y/o respuestas.
 
 ## Motivos de la decisión.
 
@@ -27,7 +27,7 @@ Opción escogida: "Opción 1", porque recoge la necesidad de tener un sistema ce
 
 * Se cumplen los requisitos del sistema.
 * Se podrán añadir nuevos subsistemas en el futuro.
-* Los subsistemas son independientes entre si, detectando fácilmente los posibles fallos que puedan surgir.
+* Los subsistemas son independientes entre sí, detectando fácilmente los posibles fallos que puedan surgir.
 
 ### Consecuencias negativas
 
