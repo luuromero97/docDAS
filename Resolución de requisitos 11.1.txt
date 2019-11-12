@@ -8,7 +8,7 @@
 
 ### Flujo de eventos.
 * Flujo 1: Cuando se quiera mantener una comunicación con un país externo se notificará al gestor de llamadas externas para que este redireccione la comunicación por el módulo de traducción.
-* Flujo 2: La respuesta del país vendra también por el módulo de traducción y el gestor de llamadas la redireccionará a los nodos funcionales.
+* Flujo 2: La respuesta del país vendrá también por el módulo de traducción y el gestor de llamadas la redireccionará a los nodos funcionales.
 
 #### Clases del sistema:
 * Nodo funcional.
