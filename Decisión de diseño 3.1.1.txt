@@ -11,14 +11,14 @@
 
 ## Opciones consideradas.
 * Opción 1: Sistema de inicio de sesión dividida.
-* Opción 2: Sistema sin ininicio de sesión.
+* Opción 2: Sistema sin inicio de sesión.
 
 ## Decisión resultante.
-Opción escogida: "Opción 1" porque es un sistema clasificatorio, lo que permite a cada usuario acceder unicamente a su información.
+Opción escogida: "Opción 1" porque es un sistema clasificatorio, lo que permite a cada usuario acceder únicamente a su información.
 
 ### Consecuencias positivas
 * Permite enviar información de forma directa a los distintos usuarios del sistema, de forma que estos estén
 mejor informados de lo que tienen que tramitar.
 
 ### Consecuencias negativas
-* El hecho de añadir tipo de usuario hará que la BBDD tenga que recoger más datos, lo que significará un aumento en la necesidad de capacidad
+* El hecho de añadir tipo de usuario hará que la BBDD tenga que recoger más datos, lo que significará un aumento en la necesidad de capacidad.
