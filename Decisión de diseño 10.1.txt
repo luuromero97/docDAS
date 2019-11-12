@@ -4,7 +4,7 @@
 * Decisores: Daniel Liszewski, Alicia Merino.
 * Fecha: 08/11/2019
 
-## Es necesaria disponer comunicaciones entre la policía y los militares.
+## Es necesario disponer comunicaciones entre la policía y los militares.
 
 ## Motivos de la decisión.
 
@@ -26,4 +26,4 @@ Opción escogida: "Opción 2, porque nos permite mantener comunicaciones entre l
 
 ### Consecuencias negativas
 
-* No contamos con una comunicacíon segura.
+* No contamos con una comunicación segura.
