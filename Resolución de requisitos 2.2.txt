@@ -8,11 +8,11 @@
 * Sistema central de control.
 
 ### Flujo de eventos llamada.
-* Paso 1: El sistema recibira llamadas, por cada llamada se guaradará un mensaje de voz de la persona que solicita el servivio de atención y su número de teléfono.
-* Paso 2: Despues de recopilar la voz y el número la llamada se almmacenará en una cola.
-* Paso 3: Cuando la llamada pueda ser atendida el número de esta se mostrará en la pantalla del operador.
+* Paso 1: El sistema recibirá llamadas, por cada llamada se guardará un mensaje de voz de la persona que solicita el servicio de atención y su número de teléfono.
+* Paso 2: Despues de recopilar la voz y el número, la llamada se almacenará en una cola.
+* Paso 3: Cuando la llamada pueda ser atendida, el número de esta se mostrará en la pantalla del operador.
 * Paso 4: El operador completará la información de la emergencia mediante diversas preguntas.
-* Paso 5: El operdador finalizará la llamada y enviará la información de la emergencia a un modulo reccopilador de emergencias que se encargará de introducir la petición en una cola priorizada para posteriormente enviársela al sistema de gestión central.
+* Paso 5: El operdador finalizará la llamada y enviará la información de la emergencia a un modulo recopilador de emergencias que se encargará de introducir la petición en una cola priorizada para posteriormente enviársela al sistema de gestión central.
 * Paso 6: El operdador recibirá la siguiente llamada en espera.
 
 ### Flujo de eventos inicio de sesión.
@@ -22,14 +22,14 @@
 * Paso 3: El sistema tendrá constantemente en cuenta el número de operadores activos para asignar las llamadas en espera y aumentar el tamaño de la cola de llamadas en espera sin ser atendidas.
 
 #### Clases del sistema:
-* Receptor de llamadas: Tendá una cola que almacena las llamadas, su número y un mensaje de voz de 5 seg(recogido por el mismo receptor de llamadas).
-* Sistema de login: Tendrá una base de datos donde almacena los nombres de usuario y sus contraseñas y un sistema de logeo.
+* Receptor de llamadas: Tendrá una cola que almacene las llamadas, su número y un mensaje de voz de 5 seg(recogido por el mismo receptor de llamadas).
+* Sistema de login: Tendrá una base de datos donde almacene los nombres de usuario y sus contraseñas y un sistema de logueo.
 * Cabina telefónica: Es un paquete que contiene el teléfono y el ordenador de cada cabina telefónica.
 * Recopilador de peticiones: Contiene una lista de las peticiones priorizadas que se han recogido desde cada cabina telefónica.
 
 ##### Relaciones entre las clases:
 * Entre el receptor de llamadas y las cabinas telefónicas: Las llamadas recogidas se enviarán a cabinas libres.
 * Receptor de llamadas - Sistema de login: El sistema de login controla el tamaño de la cola del receptor de llamadas (entre 15 y 20).
-* Sistema de login - cabina telefónica: Cada usuario de la cabina telefónica debe logearse.
+* Sistema de login - cabina telefónica: Cada usuario de la cabina telefónica debe loguearse.
 * Cabina telefónica - recopilador de peticiones.
-* Recopiador de peticiones - Sistema central de control: Se mandan las peticiones al canal común de emergencias del sistema central de control, donde también se reciben las emergencias de otros subsistemas (detector de emergencias inesperdas y cámaras de video-vigilancia).
+* Recopilador de peticiones - Sistema central de control: Se mandan las peticiones al canal común de emergencias del sistema central de control, donde también se reciben las emergencias de otros subsistemas (detector de emergencias inesperadas y cámaras de video-vigilancia).
