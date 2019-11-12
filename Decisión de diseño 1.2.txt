@@ -29,4 +29,4 @@ Opción escogida: "Opción 1", porque recoge la necesidad de tener un sistema ce
 
 ### Consecuencias negativas
 
-* Con esta arquitectura no conseguimos tener un sistema centralizado que controle el reto de componentes como nos pide el cliente.
+* Con esta arquitectura no conseguimos tener un sistema centralizado que controle el resto de componentes, como nos pide el cliente.
