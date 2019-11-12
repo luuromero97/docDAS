@@ -16,7 +16,7 @@
 
 ## Decisión resultante.
 
-Opción escogida: Opción 1: porque almacenar todos los usarios del sistema junto a sus controseñas.
+Opción escogida: Opción 1: porque almacenar todos los usarios del sistema junto a sus contraseñas.
 
 ### Consecuencias positivas
 
