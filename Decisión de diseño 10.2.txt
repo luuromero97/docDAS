@@ -4,7 +4,7 @@
 * Decisores: Daniel Liszewski, Alicia Merino.
 * Fecha: 08/11/2019
 
-## Es necesaria disponer de un módulo que se encargue de cifrar las comunicaciones por radio entre la policía y los militares además de gestionar el resto de comunicaciones entre el sistema central de control y los agentes activos.
+## Es necesario disponer de un módulo que se encargue de cifrar las comunicaciones por radio entre la policía y los militares, además de gestionar el resto de comunicaciones entre el sistema central de control y los agentes activos.
 
 ## Motivos de la decisión.
 
