@@ -4,11 +4,11 @@
 * Detectores de incendios.
 * Centro de control remoto.
 * Sistema intermediario de interpretación.
-*Sistema central de control.
+* Sistema central de control.
 
 ### Flujo de eventos.
 * Flujo 1: El detector de incendios se activa y este le envía una señal radio al centro de control remoto.
-* Flujo 2: El centro de control remoto recibe la señal de radio, interpreta el aviso de incendio y evía un SMS al sistema intermediario.
+* Flujo 2: El centro de control remoto recibe la señal de radio, interpreta el aviso de incendio y envía un SMS al sistema intermediario.
 * Flujo 3: El sistema intermediario recibe la señal SMS y la transmite en un formato común para la cola de emergencias.
 
 #### Clases del sistema:
