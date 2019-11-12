@@ -3,22 +3,22 @@
 * Decisores: Daniel Liszewski, Alicia Merino.
 * Fecha: 29/10/2019
 
-## Es necesrio un sitema que controle c˙antos operadores telefÛnicos se encuentran activos en cada momento.
+## Es necesrio un sistema que controle cu√°ntos operadores telef√≥nicos se encuentran activos en cada momento.
 
-## Motivos de la decisiÛn.
-* MotivaciÛn 1: Requisito R10: El rango de llamadas ser· variable dependiendo del n˙mero de operadores disponibles.
-* MotivaciÛn 2: Permite conocer cuantos operdaores est·n trabajando.
+## Motivos de la decisi√≥n.
+* Motivaci√≥n 1: Requisito R10: El rango de llamadas ser√° variable dependiendo del n√∫mero de operadores disponibles.
+* Motivaci√≥n 2: Permite conocer cuantos operadores est√°n trabajando.
 
 ## Opciones consideradas.
-* OpciÛn 1: Sistema de inicio de sesiÛn.
-* OpciÛn 2: Sitema de fichajes.
+* Opci√≥n 1: Sistema de inicio de sesi√≥n.
+* Opci√≥n 2: Sistema de fichajes.
 
-## DecisiÛn resultante.
-OpciÛn escogida: "OpciÛn 1" porque es un sistema r·pido y efectivo que minimiza el n˙mero de falsos operadores acctivos.
+## Decisi√≥n resultante.
+Opci√≥n escogida: "Opci√≥n 1" porque es un sistema r√°pido y efectivo que minimiza el n√∫mero de falsos operadores activos.
 
 ### Consecuencias positivas.
-* Se podr· comocer cuanto trabaja un operador.
+* Se podr√° conocer cuanto trabaja un operador.
 
 ### Consecuencias negativas.
-* Un operador al terminar su turno podr· olvidar su ficha, podruciendo un n˙mero erroneo de operadores.
-* No se podr·n obtener otro tipo de datos sin disponer de un sistema aparte para dicho fin.
+* Un operador al terminar su turno podr√° olvidar su ficha, podruciendo un n√∫mero err√≥neo de operadores.
+* No se podr√°n obtener otro tipo de datos sin disponer de un sistema aparte para dicho fin.
