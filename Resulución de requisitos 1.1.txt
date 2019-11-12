@@ -22,7 +22,7 @@
 	- Desarrollado en resolución de requisitos 7.2.
 	
 * Flujo 2: Elementos activos de emergencia > Sistema de interfaz general > Emergencia en curso.
-	- Desarrollado en la resolución de requistios 3.2.
+	- Desarrollado en la resolución de requistios 5.3.
 
 * Flujo 3: Subsistema de cámaras - sistema central de control.
 	- Desarrollado en resolución de requisitos 6.2.
