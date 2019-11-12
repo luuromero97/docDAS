@@ -16,12 +16,12 @@
 
 ## Decisión resultante.
 
-Opción escogida: "Opción 1, pues nos permite gestionar la publiación de noticias".
+Opción escogida: "Opción 1", nos permite gestionar la publicación de noticias.
 
 ### Consecuencias positivas
 
 * Se cumple con los requisitos.
-* La publicación de noticias se realiza a los usuarios que estén suscritos a este sistema gracias al patrón publisher.
+* La publicación de noticias se realiza a los usuarios que estén suscritos a este sistema, gracias al patrón publisher.
 
 ### Consecuencias negativas
 
