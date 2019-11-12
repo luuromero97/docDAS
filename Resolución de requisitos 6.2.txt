@@ -12,12 +12,11 @@ de monitorización.
 *Flujo 2: Los operadores del centro de monitorización observan las imágenes recibidas y si es conveniente activan una emergencia.
 
 #### Clases del sistema:
-* Cámaras: Cada cámara contara con almacenaje de imágenes, video, audio y fecha de grabación.
+* Cámaras: Cada cámara contará con almacenaje de imágenes, video, audio y fecha de grabación.
 * Gestor de cámaras: Contará con una lista de cámaras y otra lista de cabinas de monitorización.
-* Cabinas de monitorización: Cuenta con un monitor para la visualización de las imágenes y un boton para activar emergencias.
+* Cabinas de monitorización: Cuenta con un monitor para la visualización de las imágenes y un botón para activar emergencias.
 
 ##### Relaciones entre las clases:
-* Cámaras - Gestor de cámaras: Las cámaras envian las imágenes al gestor.
+* Cámaras - Gestor de cámaras: Las cámaras envían las imágenes al gestor.
 * Gestor de cámaras - Cabinas de monitorización: El gestor de cámaras asigna cámaras a distintas cabinas y les envía las imágenes de estas.
-* Cabinas de monitorización - Sistema central de control: Las cabinas mandan emergencias al canal común de emergencias, que es compartido con el resto de
-subsistemas (llamadas teleónicas y detectores de emergencias inesperadas).
+* Cabinas de monitorización - Sistema central de control: Las cabinas mandan emergencias al canal común de emergencias, que es compartido con el resto de subsistemas (llamadas telefónicas y detectores de emergencias inesperadas).
