@@ -14,7 +14,7 @@
 * Opción 2: Sistema sin inicio de sesión.
 
 ## Decisión resultante.
-Opción escogida: "Opción 1" porque es un sistema clasificatorio, lo que permite a cada usuario acceder unicamente a su información.
+Opción escogida: "Opción 1" porque es un sistema clasificatorio, lo que permite a cada usuario acceder únicamente a su información.
 
 ### Consecuencias positivas
 * Este sistema será más rápido de acceder.
