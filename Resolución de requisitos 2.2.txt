@@ -12,8 +12,8 @@
 * Paso 2: Despues de recopilar la voz y el número, la llamada se almacenará en una cola.
 * Paso 3: Cuando la llamada pueda ser atendida, el número de esta se mostrará en la pantalla del operador.
 * Paso 4: El operador completará la información de la emergencia mediante diversas preguntas.
-* Paso 5: El operdador finalizará la llamada y enviará la información de la emergencia a un modulo recopilador de emergencias que se encargará de introducir la petición en una cola priorizada para posteriormente enviársela al sistema de gestión central.
-* Paso 6: El operdador recibirá la siguiente llamada en espera.
+* Paso 5: El operador finalizará la llamada y enviará la información de la emergencia a un modulo recopilador de emergencias que se encargará de introducir la petición en una cola priorizada para posteriormente enviársela al sistema de gestión central.
+* Paso 6: El operador recibirá la siguiente llamada en espera.
 
 ### Flujo de eventos inicio de sesión.
 * Paso 0: Se cuenta con una base de datos con la información pertinente de cada operador.
