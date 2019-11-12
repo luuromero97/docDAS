@@ -1,4 +1,4 @@
-# Decisión de diseño 1.1, 2.2, 6.2, 7.: Estilo por eventos con subsistemas de llamadas, cámaras de video-vigilancia y detector de emergencias inesperadas.
+# Decisión de diseño 1.1, 2.2, 6.2, 7.2: Estilo por eventos con subsistemas de llamadas, cámaras de video-vigilancia y detector de emergencias inesperadas.
 
 ## Actores que envían eventos:
 * Subsistema de llamadas.
@@ -19,7 +19,7 @@
 
 ### Flujo de eventos:
 * Flujo 1: Subsistema de emergencias inesperadas > Sistema central de control > Elemento activo de emergencia.
-	- Desarrollado en resolución de requisitos 7.
+	- Desarrollado en resolución de requisitos 7.2.
 	
 * Flujo 2: Elementos activos de emergencia > Sistema de interfaz general > Emergencia en curso.
 	- Desarrolado en la resolución de requistios 3.2.
