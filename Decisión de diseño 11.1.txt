@@ -13,11 +13,11 @@
 
 ## Opciones consideradas.
 
-* Opción 1: Sistema de comunicaciones con otros países empleando el sistema de gestión de llamadas y un módulo de traduccíon.
+* Opción 1: Sistema de comunicaciones con otros países empleando el sistema de gestión de llamadas y un módulo de traducción.
 
 ## Decisión resultante.
 
-Opción escogida: "Opción 1, pues nos permite mantener comunicaciones en tiempo real traducidas".
+Opción escogida: "Opción 1", nos permite mantener comunicaciones en tiempo real traducidas.
 
 ### Consecuencias positivas
 
